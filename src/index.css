@@ -19,6 +19,9 @@ nav>div>div {
         0 calc(100% - 20vw)
     );
 }
+.hero {
+    height: 80vh
+}
 @media screen and (min-width: 650px) { 
     .hero {
         clip-path: polygon(
@@ -28,7 +31,6 @@ nav>div>div {
         0 calc(100% - 10vw)
     );
     }
-    
 }
 .leftCorner {
     position: relative;
