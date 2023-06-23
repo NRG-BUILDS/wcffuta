@@ -14,6 +14,8 @@ const Home = () => {
             <UpcoProSect />
             <AnnouncSect />
             <SocialSect />
+            
+            
             {/* <HighlightSection /> */}
         </>
      );
