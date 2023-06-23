@@ -22,7 +22,7 @@ nav>div>div {
     );
 }
 .hero {
-    height: 80vh;
+    height: 80vh
 }
 @media screen and (min-width: 650px) { 
     .hero {
@@ -32,7 +32,8 @@ nav>div>div {
         100% 100%,
         0 calc(100% - 10vw)
     );
-    }    
+    }
+    
 }
 .leftCorner {
     position: relative;
