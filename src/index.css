@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    scroll-behavior: smooth;
-}
 
 h1, h2, h5 {
     @apply font-bold my-2
@@ -13,6 +10,7 @@ nav>div>div {
     backdrop-filter: blur(4px);
 }
 .hero, .rightCorner {
+
     position: relative;
     clip-path: polygon(
         0 0,
@@ -33,7 +31,6 @@ nav>div>div {
         0 calc(100% - 10vw)
     );
     }
-    
 }
 .leftCorner {
     position: relative;
@@ -64,21 +61,33 @@ nav>div>div {
     );
 }
 
-.zoomIn { 
+.drpdwn {
+    position: relative;
+}
+.drpdwn-content {
+    position: absolute;
+    display: none;
+    border-radius: 8px;
+}
+.drpdwn:hover .drpdwn-content {
+    display: block;
+    margin-top: 4px;
+}
+.revealSide { 
     opacity: 0;
     scale: 0.4;
     transition: .5s;
 }
-.zoomIn.active { 
+.revealSide.active { 
     opacity: 1;
     scale: 1;
 }
-.revealTop { 
-    transform: translateY(18px);
+.zoom { 
+    scale: 0.8;
     opacity: 0;
-    transition: 1s;
+    transition: 1.5s;
 }
-.revealTop.active { 
-    transform: translateX(0px);
+.zoom.active { 
+    scale: 1;
     opacity: 1;
 }
