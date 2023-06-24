@@ -9,8 +9,8 @@ const AnnouncSect = () => {
 
     return ( 
         <section className="leftCorner bg-white pt-36 pb-44 z-10" id="announcements">
-            <div className="max-w-2xl px-4">
-                <h2 className="revealTop uppercase text-2xl">special</h2>
+            <div className="max-w-2xl px-4 pb-6">
+                <h2 className="revealTop uppercase text-2xl leading-3">special</h2>
                 <h2 className="revealTop text-brightRed uppercase text-4xl">Annoucements</h2>
             </div>
             <div className="announceSect grid md:grid-cols-3 gap-5 max-w-4xl mx-auto px-4 justify-between h-96 relative overflow-clip duration-100 pb-10">

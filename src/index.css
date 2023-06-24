@@ -24,6 +24,7 @@ nav>div>div {
 }
 @media screen and (min-width: 650px) { 
     .hero {
+        height: 100vh;
         clip-path: polygon(
         0 0,
         100% 0,
@@ -60,7 +61,13 @@ nav>div>div {
         0 100%
     );
 }
-
+.Card {
+    height: 8.4rem;
+    transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.Card.active {
+    height: 40rem;
+}
 .drpdwn {
     position: relative;
 }
@@ -73,21 +80,22 @@ nav>div>div {
     display: block;
     margin-top: 4px;
 }
-.revealSide { 
-    opacity: 0;
-    scale: 0.4;
-    transition: .5s;
-}
-.revealSide.active { 
-    opacity: 1;
-    scale: 1;
-}
-.zoom { 
-    scale: 0.8;
+.revealTop { 
+    transform: translateY(18px);
     opacity: 0;
     transition: 1.5s;
 }
-.zoom.active { 
+.revealTop.active { 
+    transform: translateY(0);
+    opacity: 1;
+
+}
+.zoomIn { 
+    scale: 0.8;
+    opacity: 0;
+    transition: 1s;
+}
+.zoomIn.active { 
     scale: 1;
     opacity: 1;
 }
