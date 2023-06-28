@@ -17,14 +17,14 @@ const MissionSect = () => {
                     </p>
                 </div>
                 
-                <div className="pt-10">
+                <div className="pt-10" id='quickLinks'>
                     <h2 className="text-xl uppercase text-center">Looking For Something?</h2>
-                    <a href="/" className="block py-4 font-semibold border-b-2">How to find us</a>
-                    <a href="#upcoming" className="block py-4 font-semibold border-b-2">Upcoming Service, Programs & Events</a>
-                    <a href="/#familySong" className="block py-4 font-semibold border-b-2">Our Family Song</a>
-                    <a href="/#announcements" className="block py-4 font-semibold border-b-2">Special Annoucements</a>
-                    <a href="/#offering" className="block py-4 font-semibold border-b-2">Give Offerings</a>
-                    <a href="/" className="block py-4 font-semibold border-b-2">More about WCF...</a>
+                    <a href="/" className="inline-block mt-5 mr-5 rounded-3xl py-3 px-4 font-semibold border-2 hover:bg-white hover:text-deepRed duration-75">How to find us</a>
+                    <a href="#upcoming" className="inline-block mt-5 mr-5 rounded-3xl py-3 px-4 font-semibold border-2 hover:bg-white hover:text-deepRed duration-75">Upcoming Service, Programs & Events</a>
+                    <a href="/#familySong" className="inline-block mt-5 mr-5 rounded-3xl py-3 px-4 font-semibold border-2 hover:bg-white hover:text-deepRed duration-75">Our Family Song</a>
+                    <a href="/#announcements" className="inline-block mt-5 mr-5 rounded-3xl py-3 px-4 font-semibold border-2 hover:bg-white hover:text-deepRed duration-75">Special Annoucements</a>
+                    <a href="/#offering" className="inline-block mt-5 mr-5 rounded-3xl py-3 px-4 font-semibold border-2 hover:bg-white hover:text-deepRed duration-75">Give Offerings</a>
+                    <a href="/#more" className="inline-block mt-5 mr-5 rounded-3xl py-3 px-4 font-semibold border-2 hover:bg-white hover:text-deepRed duration-75">More about WCF...</a>
                 </div>
                 <div className='p-8 opacity-50'>
                     <img src={wcfLogo} alt="" />

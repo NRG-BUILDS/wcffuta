@@ -11,22 +11,22 @@ const SocialSect = () => {
                 <a href="https://www.instagram.com/wcffuta">
                     <div className="border-b-2 border-white flex justify-between items-center p-4">
                         <img src={instagram} alt="" className="w-12 h-12" />
-                        <p>@wcffuta</p>
+                        <p>Get posts @wcffuta</p>
                     </div>
                 </a>
-                <a href="/">
+                <a href="https://www.youtube.com/wcffuta-media">
                     <div className="border-b-2 border-white flex justify-between items-center p-4">
                         <img src={yt} alt="" className="w-12 h-12" />
-                        <p>@wcffuta</p>
+                        <p>Watch LIVE @wcffuta-media</p>
                     </div>
                 </a>
-                <a href="/">
+                <a href="https://www.mixlr.com/wcf-futa-online">
                     <div className="border-b-2 border-white flex justify-between items-center p-4">
                         <div className="bg-white">
                             <img src={mixlr} alt="" className="w-12 h-12" />
                         </div>
                         
-                        <p>@wcffuta</p>
+                        <p>Listen LIVE @wcf-futa-online</p>
                     </div>
                 </a>
             </div>

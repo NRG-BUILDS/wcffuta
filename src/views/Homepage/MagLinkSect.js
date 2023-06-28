@@ -5,7 +5,7 @@ const MagLinkSect = () => {
             <p>for our weekly magazines on spirit, school and so much more... </p>
             
             <a href="/">
-                <div className="flex items-center justify-center p-4 border-2">
+                <div className="rounded-full flex items-center justify-center p-4 border-2">
                     <span className="material-icons-outlined">arrow_forward</span>
                 </div>
             </a>

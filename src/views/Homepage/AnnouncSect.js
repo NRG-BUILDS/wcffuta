@@ -8,7 +8,7 @@ const AnnouncSect = () => {
     }
 
     return ( 
-        <section className="leftCorner bg-white pt-36 pb-44 z-10" id="announcements">
+        <section className="leftCorner bg-white pt-24 pb-44 z-10" id="announcements">
             <div className="max-w-2xl px-4 pb-6">
                 <h2 className="revealTop uppercase text-2xl leading-3">special</h2>
                 <h2 className="revealTop text-brightRed uppercase text-4xl">Annoucements</h2>
