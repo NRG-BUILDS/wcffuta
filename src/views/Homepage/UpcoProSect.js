@@ -3,7 +3,7 @@ import programPic from '../../assets/images/program.jpg'
 
 const UpcoProSect = () => {
     const [dayOfEvent, setDayOfEvent] = useState('Tuesday')
-    const date = new Date
+    const date = new Date();
     const today = date.getDay();
     useEffect(() => {
         if (today <= 2 || today === 6) {
