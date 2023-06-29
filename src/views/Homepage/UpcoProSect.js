@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react'
 import programPic from '../../assets/images/program.jpg'
+import MapSect from './MapSect'
 
 const UpcoProSect = () => {
     const [dayOfEvent, setDayOfEvent] = useState('Tuesday')
-    const date = new Date();
+    const [isMapOpen, setIsMapOpen] = useState(false)
+    const date = new Date
     const today = date.getDay();
     useEffect(() => {
         if (today <= 2 || today === 6) {
@@ -13,7 +15,19 @@ const UpcoProSect = () => {
         }
         // eslint-disable-next-line
     }, [])
-    
+
+    const mapClick = (e) => {
+        if (isMapOpen) {
+            e.target.innerHTML = `<span>How to get there </span> 
+            `
+            setIsMapOpen(false)
+        } else {
+            setIsMapOpen(true)
+            e.target.innerHTML = `<span>Hide Map </span> 
+            `
+        }
+    }
+
     //Edit this to edit event details
     const program = {
         name: 'Prayer Charge Pt.2',
@@ -43,7 +57,7 @@ const UpcoProSect = () => {
                         <span className="material-icons-outlined">location_on</span>
                     </p>
                     <div>
-                        <a href="/#map" >
+                        <a href="/#map" onClick={(e) => {mapClick(e)}}>
                             <div className='flex font-semibold justify-between items-center my-10 rounded-3xl py-3 px-6 border-2 border-brightRed hover:bg-brightRed hover:text-white duration-75'>
                                 <span>How to get there </span> 
                                 <span className="material-icons-outlined">explore</span>
@@ -52,8 +66,11 @@ const UpcoProSect = () => {
                         </a>
                     </div>
                     
-                </div>
+                </div>  
             </div>
+            {isMapOpen && (
+                    <MapSect />
+                )}
         </section>
      );
 }

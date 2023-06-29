@@ -18,7 +18,7 @@ const DropCard = ({topic, img, content, id}) => {
                     </div>
                     
                 </div>
-                <div className='Card overflow-y-auto mt-2 px-20 leading-loose text-center hover:shadow-xl'>
+                <div className='Card overflow-y-auto mt-2 px-10 leading-loose text-center hover:shadow-xl'>
                     {content}
                 </div>
             </div>

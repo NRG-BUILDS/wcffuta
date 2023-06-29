@@ -10,15 +10,15 @@ import OfferingSect from './OfferingSect'
 import Footer from "../../components/Footer";
 import MagLinkSect from "./MagLinkSect";
 import MapSect from "./MapSect";
+import ExcoSect from "./ExcoSect";
 
 const Home = () => {
     return ( 
         <>
-            <Navbar currentPage={'Winners Campus Fellowship'} />
             <Hero />
             <MissionSect />
             <UpcoProSect />
-            <MapSect />
+            <ExcoSect />
             <SocialSect />
             <div className="py-8" id="more">
                 <div className="px-4">
@@ -27,15 +27,14 @@ const Home = () => {
                 </div>
                 
            
-            <div className="grid gap-y-4 md:grid-cols-2 items-center max-w-4xl mx-auto">
+            <div className="grid gap-y-4 md:grid-cols-2 items-center max-w-4xl mx-auto relative">
                 <DropCard topic={'Our Family Song'} img={'familysong.jpg'} content={<FamilySngSect />} id={'familySong'}/>
                 <DropCard topic={'Give Offerings'} img={'offering.jpg'} content={<OfferingSect />} id={'offering'}/>
-                <DropCard topic={'Our E-magazines'} img={'magazine.jpg'} content={<MagLinkSect />} />
+                <DropCard topic={'Our E-magazines'} img={'magazine.jpg'} content={<MagLinkSect />}/>
                 <DropCard topic={'Special Announcements'} img={'magazine.jpg'} content={<AnnouncSect />} />
             </div>
             </div>
 
-            <Footer />
             {/* <HighlightSection /> */}
         </>
      );
