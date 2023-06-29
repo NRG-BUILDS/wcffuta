@@ -19,7 +19,7 @@ const MissionSect = () => {
                 
                 <div className="pt-10 !px-0" id='quickLinks'>
                     <h2 className="text-xl uppercase text-center">Looking For Something?</h2>
-                    <a href="/" className="quickLink">
+                    <a href="/#map" className="quickLink">
                         How to find us
                         <span className="material-icons-outlined ml-2">location_on</span>
                     </a>

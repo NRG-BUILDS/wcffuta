@@ -14,7 +14,7 @@ const DropCard = ({topic, img, content, id}) => {
                 <div className='pl-4 grid grid-cols-2 items-center bg-black duration-100 hover:bg-deepRed text-white -skew-y-6 cursor-pointer' onClick={(e) => {handleClick(e)}}>
                     <h2 className="">{topic}</h2>
                     <div className='relative bg-gradient-to-l from-current to-black'>
-                        <img src={require(`../assets/images/${img}`)} alt="" className='h-full'/>
+                        <img src={require(`../assets/images/${img}`)} alt=""/>
                     </div>
                     
                 </div>

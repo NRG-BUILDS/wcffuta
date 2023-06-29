@@ -17,7 +17,7 @@ const Home = () => {
             <UpcoProSect />
             <ExcoSect />
             <SocialSect />
-            <div className="py-8" id="more">
+            <div className=" py-24" id="more">
                 <div className="px-4">
                     <h2 className=" text-4xl leading-3">More From</h2>
                     <h2 className="uppercase text-brightRed text-4xl">wcf futa</h2>

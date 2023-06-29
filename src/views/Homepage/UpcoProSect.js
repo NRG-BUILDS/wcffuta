@@ -58,7 +58,7 @@ const UpcoProSect = () => {
                     </p>
                     <div>
                         <a href="/#map" onClick={(e) => {mapClick(e)}}>
-                            <div className='flex font-semibold justify-between items-center my-10 rounded-3xl py-3 px-6 border-2 border-brightRed hover:bg-brightRed hover:text-white duration-75'>
+                            <div className='flex font-semibold justify-between items-center my-10 rounded-3xl py-3 px-6 border-2 border-brightRed hover:bg-brightRed hover:text-white duration-75' id='map'>
                                 <span>How to get there </span> 
                                 <span className="material-icons-outlined">explore</span>
                             </div>

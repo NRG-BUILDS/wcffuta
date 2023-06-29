@@ -9,8 +9,10 @@ const Footer = () => {
             setIsFormOpen(false)
         } else {
             setIsFormOpen(true)
-        }
+        } 
     }
+    const date = new Date();
+    const year = date.getFullYear()
     return ( 
         <footer className='bg-black text-white mt-10 px-4 py-10 pt-40 relative  overflow-hidden'>
             <div className="relative z-10">
@@ -37,7 +39,7 @@ const Footer = () => {
                         <a href="tel:+2348147882426" className='underline'> +234 814 788 2426</a>
                     </p>
                     <p>© Winners Campus Fellowship, FUTA</p>
-                    <p>2023</p>
+                    <p>{year}</p>
                 </div>
             </div>
             

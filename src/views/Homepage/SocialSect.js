@@ -4,7 +4,7 @@ import instagram from '../../assets/icons/instagram.png'
 
 const SocialSect = () => {
     return ( 
-        <section className="leftCorner -mt-20 md:-mt-44 md:py-32 py-24 px-4 bg-gradient-to-br from-black to-deepRed text-white relative z-0">
+        <section className="leftCorner -mt-20 md:-mt-44 py-32 px-4 bg-gradient-to-br from-black to-deepRed text-white relative z-0">
             <h2 className="zoomIn uppercase -skew-y-6 text-2xl">the experience</h2>
             <h2 className="zoomIn text-brightRed uppercase -skew-y-6 text-4xl">continues @</h2>
             <div className="-skew-y-6 max-w-xl p-4 mx-auto">
