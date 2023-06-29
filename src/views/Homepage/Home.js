@@ -1,5 +1,4 @@
 import DropCard from "../../components/DropCard";
-import Navbar from "../../components/Navbar";
 import AnnouncSect from "./AnnouncSect";
 import FamilySngSect from "./FamilySngSect";
 import Hero from "./Hero";
@@ -7,9 +6,7 @@ import MissionSect from "./MissionSect";
 import SocialSect from "./SocialSect";
 import UpcoProSect from "./UpcoProSect";
 import OfferingSect from './OfferingSect'
-import Footer from "../../components/Footer";
 import MagLinkSect from "./MagLinkSect";
-import MapSect from "./MapSect";
 import ExcoSect from "./ExcoSect";
 
 const Home = () => {

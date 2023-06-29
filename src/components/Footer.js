@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
                 )}
                 {isFormOpen && (<div className='max-w-xl mx-auto rounded-md border-2 py-6 px-3 my-10 bg-white text-gray-800'>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhxNQHM7tIIAJ1kB6o_23lxqQfk_Cl9qT4oV2DcU6y1sk8zA/viewform?embedded=true" width="100%" height="1883" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhxNQHM7tIIAJ1kB6o_23lxqQfk_Cl9qT4oV2DcU6y1sk8zA/viewform?embedded=true" width="100%" height="1883" frameborder="0" marginheight="0" marginwidth="0" title='SignUpForm'>Loading…</iframe>
                 </div>)}
                 <div className="text-center my-8">
                     <p>Contact and Enquires: 
