@@ -34,13 +34,12 @@ const MapSect = () => {
                     <button
                         onClick={() => {nextMap(-1)}}
                         className="">
-                            <span className="matarial-icons-outlined">arrow_back</span>
+                            <span className="material-icons-outlined">arrow_back</span>
                         </button>
                     <p>{maps[index].address}</p>
                     <button
-                        onClick={() => {nextMap(1)}}
-                        className="">
-                            <span className="matarial-icons-outlined">arrow_forward</span>
+                        onClick={() => {nextMap(1)}}>
+                            <span className="material-icons-outlined">arrow_forward</span>
                         </button>
                 </div>
                 </div>
@@ -48,17 +47,16 @@ const MapSect = () => {
                 <div className="border border-gray-400 rounded-lg h-80">
                     {maps[index].mapImg}
                 </div>
-                <div className="flex text-center py-4 justify-between items-center md:hidden">
+                <div className="flex gap-2 text-center py-4 justify-between items-center md:hidden">
                     <button
-                        onClick={() => {nextMap(-1)}}
-                        className="">
-                            <span className="matarial-icons-outlined">arrow_back</span>
+                        onClick={() => {nextMap(-1)}}>
+                            <span className="material-icons-outlined">arrow_back</span>
                         </button>
                     <p>{maps[index].address}</p>
                     <button
                         onClick={() => {nextMap(1)}}
                         className="">
-                            <span className="matarial-icons-outlined">arrow_forward</span>
+                            <span className="material-icons-outlined">arrow_forward</span>
                         </button>
                 </div>
             </div>
