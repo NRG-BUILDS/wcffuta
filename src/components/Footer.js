@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import logo from '../assets/images/wcfLogoLight.png'
-import bg from '../assets/images/heroBg.jpg'
+import bg from '../assets/images/footerBg.jpg'
 
 const Footer = () => {
     const [isFormOpen, setIsFormOpen] = useState(false)

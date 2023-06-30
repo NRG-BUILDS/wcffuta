@@ -18,7 +18,7 @@ const Home = () => {
             <ExcoSect />
             <SocialSect />
             <div className=" py-24" id="more">
-                <div className="px-4">
+                <div className="px-4 -skew-y-6">
                     <h2 className=" text-4xl leading-3">More From</h2>
                     <h2 className="uppercase text-brightRed text-4xl">wcf futa</h2>
                 </div>

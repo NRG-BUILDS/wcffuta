@@ -30,7 +30,7 @@ const UpcoProSect = () => {
 
     //Edit this to edit event details
     const program = {
-        name: 'Prayer Charge Pt.2',
+        name: 'i.T Thanksgiving Service',
         venue: 'Church Auditorium, Apatapiti Layout.',
         time: '6pm'
     }
