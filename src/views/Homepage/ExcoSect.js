@@ -1,8 +1,8 @@
-const ExcoCard = ({roleName, excoName, dept, lvl, verse, img}) => {
+const ExcoCard = ({roleName, excoName, dept, lvl, verse, moment, fun, img}) => {
     return (
         <div className="excoCard py-6 transiton duration-100 border-2 hover:border-brightRed hover:shadow-lg hover:shadow-red-100  px-4 bg-white -skew-y-6 w-full relative">
                     <div className="overflow-hidden">
-                        <img src={require(`../../assets/images/excos/${img}`)} alt="" className=" skew-y-6 object-cover scale-125"/>
+                        <img src={require(`../../assets/images/excos/${img}`)} alt="" className=" skew-y-6 object-fill scale-110"/>
                     </div>
                     <div className="skew-y-6 pt-14 pb-8">
                         <p className="leading-4 text-gray-500 font-semibold uppercase text-xl">{roleName}</p>
@@ -12,7 +12,9 @@ const ExcoCard = ({roleName, excoName, dept, lvl, verse, img}) => {
                         </h3>
                         <p><span className="text-gray-500">DEPT:</span> {dept}</p>
                         <p><span className="text-gray-500">LVL:</span> {lvl}</p>
-                        <p><span className="text-gray-500">WATCH VERSE:</span> {verse}</p>
+                        <p><span className="text-gray-500">WATCH VERSE:</span> {verse} </p>
+                        <p className="pt-4"><span className="text-gray-500">FAV WCF MOMENT:<br/></span>{moment}</p>
+                        <p><span className="text-gray-500">FUN THUNG ABOUT ME:<br/></span> {fun} </p>
                     </div>
                     
                 </div>
@@ -24,8 +26,7 @@ const ExcoSect = () => {
     const showFullSect = (e) => {
         console.log(e)
         let section = document.querySelector('.excoSect')
-        section.classList.remove('h-96')
-        section.classList.add('h-full')
+        section.classList.add('active')
         e.currentTarget.style.display = 'none'
 
     }
@@ -36,20 +37,55 @@ const ExcoSect = () => {
                 <p className="revealTop uppercase text-2xl leading-3">meet our</p>
                 <p className="revealTop text-brightRed uppercase text-4xl">Excos</p>
             </div>
-            <div className="excoSect grid md:grid-cols-3 gap-10 max-w-4xl mx-auto px-4 py-10 justify-between h-96 md:h-full relative overflow-clip duration-100 pb-10">
+            <div className="excoSect grid md:grid-cols-3 gap-5 max-w-4xl mx-auto px-4 py-10 justify-between items-center md:h-full relative overflow-clip duration-100 pb-10">
                 <ExcoCard
                     roleName={'general secretary'}
                     excoName={'Sis. Olagoke Favour'}
                     dept={'Biochemistry'}
                     lvl={500}
                     verse={'Psalm 34:10'}
+                    moment={'Moment of worship'}
+                    fun={'I love visiting interesting places 🚌'}
                     img={'olagoke_favour.jpg'} />
+                <ExcoCard
+                    roleName={'assistant general secretary'}
+                    excoName={'Lebi Oluwatodimu'}
+                    dept={'Mining Engineering'}
+                    lvl={200}
+                    verse={'Exo. 23:25'}
+                    moment={'Relationship service during WCF Week 23'}
+                    fun={'I joke a lot 😂'}
+                    img={'lebi_oluwatodimu.jpg'} />
+                <ExcoCard
+                    roleName={'financial secretary'}
+                    excoName={'Balogun Precious'}
+                    dept={'Applied Geology'}
+                    lvl={500}
+                    verse={'1Thes. 1:18'}
+                    moment={'Drama night 🎬'}
+                    fun={'I love looking for trouble but I am very gentle'}
+                    img={'balogun_precious.jpg'} />
+                 <div className="zoomIn px-4 py-8 md:px-8 md:col-span-3 font-bold -skew-y-6">
+                    <p className="revealTop uppercase text-2xl leading-3">unit</p>
+                    <p className="revealTop text-brightRed uppercase text-4xl">coordinators</p>
+                </div>    
+                <ExcoCard
+                    roleName={'Publicity Unit Coordinator'}
+                    excoName={'King David Olufemi'}
+                    dept={'Quantity Surveying'}
+                    lvl={400}
+                    verse={'Isa. 48:17'}
+                    moment={'Every service day when we sing the family song'}
+                    fun={'I am multi-talented, simple and gentle 🌟'}
+                    img={'david_olufemi.jpg'} />
                 <ExcoCard
                     roleName={'Evangelism Unit (South Gate) Cooridnator & 500l Coordinator'}
                     excoName={'Bro. David Iyke'}
                     dept={'Applied Geology'}
                     lvl={500}
                     verse={'Psalm 46:10'}
+                    moment={'Moment of worship 🙏'}
+                    fun={'I am just curious. It can be fun and annoying also'}
                     img={'david_ikye.jpg'} />
                 <ExcoCard
                     roleName={'decorating unit coordinator'}
@@ -57,14 +93,49 @@ const ExcoSect = () => {
                     dept={'Applied Geology'}
                     lvl={400}
                     verse={'Isaiah 49:15-16'}
+                    moment={'Staying in WCF secretaiat'}
+                    fun={'iLove iPray iBake 💕🙏🧁'}
                     img={'love_oluwabukola.jpg'} />
+                <div className="zoomIn px-4 py-8 md:px-8 md:col-span-3 font-bold -skew-y-6">
+                    <p className="revealTop uppercase text-2xl leading-3">level</p>
+                    <p className="revealTop text-brightRed uppercase text-4xl">coordinators</p>
+                </div>    
                 <ExcoCard
                     roleName={'500l assistant coordinator'}
                     excoName={'Sis. Ayeni Joy'}
                     dept={'Animal Production & Health'}
                     lvl={500}
                     verse={'Psalm 121'}
+                    moment={'WCF Week'}
+                    fun={'I am shy😂'}
                     img={'ayeni_joy.jpg'} />
+                <ExcoCard
+                    roleName={'400l coordinator'}
+                    excoName={'Sec. Joseph Femi Oloba'}
+                    dept={'Industrial and Production Engineering'}
+                    lvl={400}
+                    verse={'Gal. 5:25'}
+                    moment={'Staying in WCF secretaiat 🏡'}
+                    fun={'I am gentle but I can disturb too'}
+                    img={'femi_oloba.jpg'} />
+                <ExcoCard
+                    roleName={'300l assistant coordinator'}
+                    excoName={'Sis. Bamidele Heritage'}
+                    dept={'Agricultural and Environmental Engineering'}
+                    lvl={300}
+                    verse={'Gal. 5:25'}
+                    moment={'WCF Week 23 -Drama night'}
+                    fun={'I love the things of God 👼'}
+                    img={'bamidele_heritage.jpg'} />
+                <ExcoCard
+                    roleName={'200l assistant coordinator'}
+                    excoName={'Sis. Omoyeni Oreoluwa'}
+                    dept={'Biology'}
+                    lvl={200}
+                    verse={'Phil 4:13'}
+                    moment={'Whenver we sing the family song 👨‍👩‍👧‍👧'}
+                    fun={'Hanging out with friends'}
+                    img={'omoyeni_oreoluwa.jpg'} />
                 
                 <div  className="md:hidden absolute left-0 bottom-0 text-center w-full py-8 bg-gradient-to-b from-transparent to-white"
                     onClick={(e) => {showFullSect(e)}}

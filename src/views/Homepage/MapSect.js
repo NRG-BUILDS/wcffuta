@@ -4,7 +4,7 @@ const MapSect = () => {
     const [index, setIndex] = useState(0)
     const maps = [
         {
-            name: 'Apatapiti Fellowship',
+            name: 'Fellowship',
             mapImg: 'GRAPHIC 1 GOES HERE',
             address: 'Opposite Rehoboth Lodge, Apatapiti Junction, South gate.'
         },

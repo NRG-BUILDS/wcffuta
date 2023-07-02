@@ -8,23 +8,25 @@ const UpcoProSect = () => {
     const date = new Date();
     const today = date.getDay();
     useEffect(() => {
-        if (today <= 2 || today === 6) {
-            setDayOfEvent('Tuesday')    //for days before tuesday and after friday
-        } else if (today >= 3 && today <= 5) {
-            setDayOfEvent('Friday')     //for days after tuesday but bofore saturday
+        if (today < 2) {
+            setDayOfEvent('This Tuesday')    //for days before tuesday and after friday
+        } else if (today === 3) {
+            setDayOfEvent('Today')
+        } else if (today > 3 && today < 5) {
+            setDayOfEvent('This Friday')     //for days after tuesday but bofore saturday
+        } else if (today === 5) {
+            setDayOfEvent('Today')
+        } else if (today === 6) {
+            setDayOfEvent('Next Tuesday')
         }
         // eslint-disable-next-line
     }, [])
 
-    const mapClick = (e) => {
+    const mapClick = () => {
         if (isMapOpen) {
-            e.target.innerHTML = `<span>How to get there </span> 
-            `
             setIsMapOpen(false)
         } else {
             setIsMapOpen(true)
-            e.target.innerHTML = `<span>Hide Map </span> 
-            `
         }
     }
 
@@ -38,7 +40,7 @@ const UpcoProSect = () => {
     return ( 
         <section className="rightCorner -mt-40 md:pb-52 py-36 px-4 bg-black text-white relative z-20" id='upcoming'>
             <h2 className="zoomIn uppercase -skew-y-6 text-2xl">join us</h2>
-            <h2 className="zoomIn text-brightRed uppercase -skew-y-6 text-4xl">this {dayOfEvent}</h2>
+            <h2 className="zoomIn text-brightRed uppercase -skew-y-6 text-4xl">{dayOfEvent}</h2>
 
             <div className='px-4 my-12 grid md:grid-cols-2 items-center gap-5 text-center md:text-left mx-auto max-w-3xl'>
                 <div>
@@ -59,7 +61,8 @@ const UpcoProSect = () => {
                     <div>
                         <a href="/#map" onClick={(e) => {mapClick(e)}}>
                             <div className='flex font-semibold justify-between items-center my-10 rounded-3xl py-3 px-6 border-2 border-brightRed hover:bg-brightRed hover:text-white duration-75' id='map'>
-                                <span>How to get there </span> 
+                                {!isMapOpen && (<span>How to get there </span>)} 
+                                {isMapOpen && (<span>Hide Map </span>)} 
                                 <span className="material-icons-outlined">explore</span>
                             </div>
                            

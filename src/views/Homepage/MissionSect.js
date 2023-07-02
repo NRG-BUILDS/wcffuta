@@ -4,7 +4,7 @@ import wcfLogo from '../../assets/images/wcfLogoDark.png'
 const MissionSect = () => {    
     return ( 
         <section className="leftCorner -mt-40 bg-deepRed relative outline-red-700 py-44 z-30 text-gray-50">
-            <div className=" grid p-6 md:px-0 md:grid-cols-2 gap-10 items-center max-w-4xl mx-auto">
+            <div className=" grid p-6 md:px-4 md:grid-cols-2 gap-10 items-center max-w-4xl mx-auto">
                 <div className='skew-y-12 md:skew-y-6 h-60 w-full overflow-clip'>
                     <img src={homePic1} alt="Winners Campus Fellowship" className='parallelogramPic -skew-y-12 h-full w-full duration-100 object-cover'/>
                 </div>
