@@ -24,7 +24,6 @@ const ExcoCard = ({roleName, excoName, dept, lvl, verse, moment, fun, img}) => {
 
 const ExcoSect = () => {
     const showFullSect = (e) => {
-        console.log(e)
         let section = document.querySelector('.excoSect')
         section.classList.add('active')
         e.currentTarget.style.display = 'none'
@@ -37,10 +36,10 @@ const ExcoSect = () => {
                 <p className="revealTop uppercase text-2xl leading-3">meet our</p>
                 <p className="revealTop text-brightRed uppercase text-4xl">Excos</p>
             </div>
-            <div className="excoSect grid md:grid-cols-3 gap-5 max-w-4xl mx-auto px-4 py-10 justify-between items-center md:h-full relative overflow-clip duration-100 pb-10">
+            <div className="excoSect grid md:grid-cols-3 gap-5 max-w-5xl mx-auto px-4 py-10 justify-evenly items-center md:h-full relative overflow-clip duration-100 pb-10">
                 <ExcoCard
                     roleName={'general secretary'}
-                    excoName={'Sis. Olagoke Favour'}
+                    excoName={'Olagoke Favour'}
                     dept={'Biochemistry'}
                     lvl={500}
                     verse={'Psalm 34:10'}
@@ -80,7 +79,7 @@ const ExcoSect = () => {
                     img={'david_olufemi.jpg'} />
                 <ExcoCard
                     roleName={'Evangelism Unit (South Gate) Cooridnator & 500l Coordinator'}
-                    excoName={'Bro. David Iyke'}
+                    excoName={'David Iyke'}
                     dept={'Applied Geology'}
                     lvl={500}
                     verse={'Psalm 46:10'}
@@ -89,7 +88,7 @@ const ExcoSect = () => {
                     img={'david_ikye.jpg'} />
                 <ExcoCard
                     roleName={'decorating unit coordinator'}
-                    excoName={'Sis. Love Oluwabukola'}
+                    excoName={'Love Oluwabukola'}
                     dept={'Applied Geology'}
                     lvl={400}
                     verse={'Isaiah 49:15-16'}
@@ -102,7 +101,7 @@ const ExcoSect = () => {
                 </div>    
                 <ExcoCard
                     roleName={'500l assistant coordinator'}
-                    excoName={'Sis. Ayeni Joy'}
+                    excoName={'Ayeni Joy'}
                     dept={'Animal Production & Health'}
                     lvl={500}
                     verse={'Psalm 121'}
@@ -111,7 +110,7 @@ const ExcoSect = () => {
                     img={'ayeni_joy.jpg'} />
                 <ExcoCard
                     roleName={'400l coordinator'}
-                    excoName={'Sec. Joseph Femi Oloba'}
+                    excoName={'Joseph Femi Oloba'}
                     dept={'Industrial and Production Engineering'}
                     lvl={400}
                     verse={'Gal. 5:25'}
@@ -120,7 +119,7 @@ const ExcoSect = () => {
                     img={'femi_oloba.jpg'} />
                 <ExcoCard
                     roleName={'300l assistant coordinator'}
-                    excoName={'Sis. Bamidele Heritage'}
+                    excoName={'Bamidele Heritage'}
                     dept={'Agricultural and Environmental Engineering'}
                     lvl={300}
                     verse={'Gal. 5:25'}
@@ -129,7 +128,7 @@ const ExcoSect = () => {
                     img={'bamidele_heritage.jpg'} />
                 <ExcoCard
                     roleName={'200l assistant coordinator'}
-                    excoName={'Sis. Omoyeni Oreoluwa'}
+                    excoName={'Omoyeni Oreoluwa'}
                     dept={'Biology'}
                     lvl={200}
                     verse={'Phil 4:13'}

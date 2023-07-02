@@ -23,6 +23,19 @@ nav>div, .navBtn {
 .navBtn:active {
     animation: spin .9s;
 }
+.flashyBorder {
+    animation: flash 1s infinite alternate;
+}
+@keyframes flash {
+    0% {
+        border-color: red;
+        box-shadow: 0 0 23px red;
+    }
+    100% {
+        border-color: white;
+        box-shadow: 0 0 0px red;
+    }
+}
 @keyframes spin {
     0% {
         transform: rotateY(0deg);
@@ -91,6 +104,12 @@ nav>div, .navBtn {
         100% calc(100% - 12vw),
         0 100%
     );
+}
+.excoSect {
+    height: 30rem;
+}
+.excoSect.active {
+    height: calc(100% - 1rem);
 }
 .Card {
     height: .0rem;
