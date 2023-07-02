@@ -56,7 +56,7 @@ const Navbutton = ({handleClick}) => {
     
     return ( 
         
-            <div className="fixed bottom-4 right-4 z-50 flex items-center justify-center rounded-full bg-white bg-opacity-80 p-4 navBtn">
+            <div className="flashyBorder fixed bottom-4 right-4 z-50 flex items-center justify-center rounded-full border-2 border-red-600 bg-white bg-opacity-80 p-4 navBtn">
                 <button onClick={(e) => {handleClick(e)}}>
                     <img src={logo} alt="" className='h-12 w-12'/>
                 </button>
