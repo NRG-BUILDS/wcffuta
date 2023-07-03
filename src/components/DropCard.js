@@ -1,10 +1,10 @@
 const DropCard = ({topic, img, content, id}) => {
     const handleClick = (e) => {
         console.log(e)
-        if (e.target.nextSibling.classList.contains('active')) {
-            e.target.nextSibling.classList.remove('active')
+        if (e.currentTarget.nextSibling.classList.contains('active')) {
+            e.currentTarget.nextSibling.classList.remove('active')
         } else {
-            e.target.nextSibling.classList.add('active')
+            e.currentTarget.nextSibling.classList.add('active')
         }
     }
 

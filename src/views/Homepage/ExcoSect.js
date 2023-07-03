@@ -12,7 +12,7 @@ const ExcoCard = ({roleName, excoName, dept, lvl, verse, moment, fun, img}) => {
                         </h3>
                         <p><span className="text-gray-500">DEPT:</span> {dept}</p>
                         <p><span className="text-gray-500">LVL:</span> {lvl}</p>
-                        <p><span className="text-gray-500">WATCH VERSE:</span> {verse} </p>
+                        <p><span className="text-gray-500">WATCH VERSE:</span><a href={`https://www.google.com/search/q=${verse}`} className="underline"> {verse}</a>  </p>
                         <p className="pt-4"><span className="text-gray-500">FAV WCF MOMENT:<br/></span>{moment}</p>
                         <p><span className="text-gray-500">FUN THUNG ABOUT ME:<br/></span> {fun} </p>
                     </div>
@@ -37,6 +37,24 @@ const ExcoSect = () => {
                 <p className="revealTop text-brightRed uppercase text-4xl">Excos</p>
             </div>
             <div className="excoSect grid md:grid-cols-3 gap-5 max-w-5xl mx-auto px-4 py-10 justify-evenly items-center md:h-full relative overflow-clip duration-100 pb-10">
+                <ExcoCard
+                    roleName={'president & brother\'s coordinator'}
+                    excoName={'Justice Daniel Adeyemi'}
+                    dept={'Mechanical Engineering'}
+                    lvl={500}
+                    verse={'Psa 19:7-12'}
+                    moment={'Bible study sessions 📖'}
+                    fun={'Though I look serious and spiritual, which I actually try to be by God\'s grace, I am quite jovial, for those who know me closely.'}
+                    img={'olagoke_favour.jpg'} />
+                <ExcoCard
+                    roleName={'vice-president & sister\'s coordinator'}
+                    excoName={'Abu Glory Ojima'}
+                    dept={'Quantity Surveying'}
+                    lvl={500}
+                    verse={'Pro. 4:7'}
+                    moment={'A particular worship session when I was in 100 level'}
+                    fun={'I love God 😍'}
+                    img={'abu_glory.jpg'} />
                 <ExcoCard
                     roleName={'general secretary'}
                     excoName={'Olagoke Favour'}
@@ -67,16 +85,34 @@ const ExcoSect = () => {
                  <div className="zoomIn px-4 py-8 md:px-8 md:col-span-3 font-bold -skew-y-6">
                     <p className="revealTop uppercase text-2xl leading-3">unit</p>
                     <p className="revealTop text-brightRed uppercase text-4xl">coordinators</p>
-                </div>    
+                </div> 
                 <ExcoCard
-                    roleName={'Publicity Unit Coordinator'}
-                    excoName={'King David Olufemi'}
+                    roleName={'academic unit coordinator'}
+                    excoName={'Adebanji Emmanuel'}
+                    dept={'Meechanical Engineering'}
+                    lvl={200}
+                    verse={'Psa. 34:1'}
+                    moment={'100 level hangout day'}
+                    fun={'I love learning new things'}
+                    img={'adebanji_emmanuel.jpg'} />   
+                <ExcoCard
+                    roleName={'decorating unit coordinator'}
+                    excoName={'Love Oluwabukola'}
+                    dept={'Applied Geology'}
+                    lvl={400}
+                    verse={'Isaiah 49:15-16'}
+                    moment={'Staying in WCF secretaiat'}
+                    fun={'iLove iPray iBake 💕🙏🧁'}
+                    img={'love_oluwabukola.jpg'} />   
+                <ExcoCard
+                    roleName={'Drama Unit Coordinator'}
+                    excoName={'Okoye Lotachi'}
                     dept={'Quantity Surveying'}
                     lvl={400}
-                    verse={'Isa. 48:17'}
-                    moment={'Every service day when we sing the family song'}
-                    fun={'I am multi-talented, simple and gentle 🌟'}
-                    img={'david_olufemi.jpg'} />
+                    verse={'Deut 1:11'}
+                    moment={'Moment of worship 🙏'}
+                    fun={'I am just curious. It can be fun and annoying also'}
+                    img={'okoye_lotachi.jpg'} />
                 <ExcoCard
                     roleName={'Evangelism Unit (South Gate) Cooridnator & 500l Coordinator'}
                     excoName={'David Iyke'}
@@ -87,14 +123,23 @@ const ExcoSect = () => {
                     fun={'I am just curious. It can be fun and annoying also'}
                     img={'david_ikye.jpg'} />
                 <ExcoCard
-                    roleName={'decorating unit coordinator'}
-                    excoName={'Love Oluwabukola'}
-                    dept={'Applied Geology'}
+                    roleName={'Hospitality & Sanctuary Unit Coordinator'}
+                    excoName={'Adeboye Godspower'}
+                    dept={'Building Technology'}
+                    lvl={300}
+                    verse={'Rev 20:12'}
+                    moment={'Every moment is my favourite moment'}
+                    fun={'Helping people to grow 🌱'}
+                    img={'adeboye_godspower.jpg'} />
+                <ExcoCard
+                    roleName={'Publicity Unit Coordinator'}
+                    excoName={'King David Olufemi'}
+                    dept={'Quantity Surveying'}
                     lvl={400}
-                    verse={'Isaiah 49:15-16'}
-                    moment={'Staying in WCF secretaiat'}
-                    fun={'iLove iPray iBake 💕🙏🧁'}
-                    img={'love_oluwabukola.jpg'} />
+                    verse={'Isa. 48:17'}
+                    moment={'Every service day when we sing the family song'}
+                    fun={'I am multi-talented, simple and gentle 🌟'}
+                    img={'david_olufemi.jpg'} />
                 <div className="zoomIn px-4 py-8 md:px-8 md:col-span-3 font-bold -skew-y-6">
                     <p className="revealTop uppercase text-2xl leading-3">level</p>
                     <p className="revealTop text-brightRed uppercase text-4xl">coordinators</p>
@@ -122,7 +167,7 @@ const ExcoSect = () => {
                     excoName={'Bamidele Heritage'}
                     dept={'Agricultural and Environmental Engineering'}
                     lvl={300}
-                    verse={'Gal. 5:25'}
+                    verse={'Eccl. 10:10b'}
                     moment={'WCF Week 23 -Drama night'}
                     fun={'I love the things of God 👼'}
                     img={'bamidele_heritage.jpg'} />
