@@ -32,7 +32,7 @@ const UpcoProSect = () => {
 
     //Edit this to edit event details
     const program = {
-        name: 'I.T Thanksgiving Service',
+        name: 'A Burning & Shining Light',
         venue: 'Church Auditorium, Apatapiti Layout.',
         time: '6pm'
     }
@@ -61,7 +61,7 @@ const UpcoProSect = () => {
                     <div>
                         <a href="/#map" onClick={(e) => {mapClick(e)}}>
                             <div className='flex font-semibold justify-between items-center my-10 rounded-3xl py-3 px-6 border-2 border-brightRed hover:bg-brightRed hover:text-white duration-75' id='map'>
-                                {!isMapOpen && (<span>How to get there </span>)} 
+                                {!isMapOpen && (<span>View Map </span>)} 
                                 {isMapOpen && (<span>Hide Map </span>)} 
                                 <span className="material-icons-outlined">explore</span>
                             </div>

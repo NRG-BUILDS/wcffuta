@@ -12,9 +12,9 @@ const ExcoCard = ({roleName, excoName, dept, lvl, verse, moment, fun, img}) => {
                         </h3>
                         <p><span className="text-gray-500">DEPT:</span> {dept}</p>
                         <p><span className="text-gray-500">LVL:</span> {lvl}</p>
-                        <p><span className="text-gray-500">WATCH VERSE:</span><a href={`https://www.google.com/search/q=${verse}`} className="underline"> {verse}</a>  </p>
+                        <p><span className="text-gray-500">WATCH VERSE:</span><a href={`https://www.google.com/search?q=${verse}`} className="underline text-deepRed"> {verse}</a>  </p>
                         <p className="pt-4"><span className="text-gray-500">FAV WCF MOMENT:<br/></span>{moment}</p>
-                        <p><span className="text-gray-500">FUN THUNG ABOUT ME:<br/></span> {fun} </p>
+                        <p><span className="text-gray-500">FUN THING ABOUT ME:<br/></span> {fun} </p>
                     </div>
                     
                 </div>
@@ -45,7 +45,7 @@ const ExcoSect = () => {
                     verse={'Psa 19:7-12'}
                     moment={'Bible study sessions 📖'}
                     fun={'Though I look serious and spiritual, which I actually try to be by God\'s grace, I am quite jovial, for those who know me closely.'}
-                    img={'olagoke_favour.jpg'} />
+                    img={'justice_adeyemi.jpg'} />
                 <ExcoCard
                     roleName={'vice-president & sister\'s coordinator'}
                     excoName={'Abu Glory Ojima'}
@@ -86,6 +86,15 @@ const ExcoSect = () => {
                     <p className="revealTop uppercase text-2xl leading-3">unit</p>
                     <p className="revealTop text-brightRed uppercase text-4xl">coordinators</p>
                 </div> 
+                <ExcoCard
+                    roleName={'Publicity Unit Coordinator'}
+                    excoName={'King David Olufemi'}
+                    dept={'Quantity Surveying'}
+                    lvl={400}
+                    verse={'Isa. 48:17'}
+                    moment={'Every service day when we sing the family song'}
+                    fun={'I am multi-talented, simple and gentle 🌟'}
+                    img={'david_olufemi.jpg'} />
                 <ExcoCard
                     roleName={'academic unit coordinator'}
                     excoName={'Adebanji Emmanuel'}
@@ -131,15 +140,6 @@ const ExcoSect = () => {
                     moment={'Every moment is my favourite moment'}
                     fun={'Helping people to grow 🌱'}
                     img={'adeboye_godspower.jpg'} />
-                <ExcoCard
-                    roleName={'Publicity Unit Coordinator'}
-                    excoName={'King David Olufemi'}
-                    dept={'Quantity Surveying'}
-                    lvl={400}
-                    verse={'Isa. 48:17'}
-                    moment={'Every service day when we sing the family song'}
-                    fun={'I am multi-talented, simple and gentle 🌟'}
-                    img={'david_olufemi.jpg'} />
                 <div className="zoomIn px-4 py-8 md:px-8 md:col-span-3 font-bold -skew-y-6">
                     <p className="revealTop uppercase text-2xl leading-3">level</p>
                     <p className="revealTop text-brightRed uppercase text-4xl">coordinators</p>
@@ -171,6 +171,15 @@ const ExcoSect = () => {
                     moment={'WCF Week 23 -Drama night'}
                     fun={'I love the things of God 👼'}
                     img={'bamidele_heritage.jpg'} />
+                <ExcoCard
+                    roleName={'200l Coordinator'}
+                    excoName={'Emmanuel Boluwatife'}
+                    dept={'Industrial Production Engineering'}
+                    lvl={200}
+                    verse={'Mat. 15:16'}
+                    moment={'Praise and worship sessions 🥁'}
+                    fun={'I imagine a lot'}
+                    img={'emmanuel_boluwatife.jpg'} />    
                 <ExcoCard
                     roleName={'200l assistant coordinator'}
                     excoName={'Omoyeni Oreoluwa'}

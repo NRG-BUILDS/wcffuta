@@ -14,7 +14,7 @@ const SocialSect = () => {
                         <p>Get posts @wcffuta</p>
                     </div>
                 </a>
-                <a href="https://www.youtube.com/wcffuta-media">
+                <a href="https://www.youtube.com/@wcffuta-media">
                     <div className="border-b-2 border-white flex justify-between items-center p-4">
                         <img src={yt} alt="" className="w-12 h-12" />
                         <p>Watch LIVE @wcffuta-media</p>
@@ -29,7 +29,12 @@ const SocialSect = () => {
                         <p>Listen LIVE @wcf-futa-online</p>
                     </div>
                 </a>
+                {/* <div className="pt-10 flex justify-center items-center gap-4 px-6">
+                    <h2>More on WCF Publicity</h2>
+                    <p><span className="material-icons-outlined">arrow_forward_ios</span></p>
+                </div> */}
             </div>
+            
 
         </section>
      );
