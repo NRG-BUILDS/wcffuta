@@ -2,7 +2,8 @@ const ExcoCard = ({roleName, excoName, dept, lvl, verse, moment, fun, img}) => {
     return (
         <div className="excoCard py-6 transiton duration-100 border-2 hover:border-brightRed hover:shadow-lg hover:shadow-red-100  px-4 bg-white -skew-y-6 w-full relative">
                     <div className="overflow-hidden">
-                        <img src={require(`../../assets/images/excos/${img}`)} alt="" className=" skew-y-6 object-fill scale-110"/>
+                        {img && <img src={require(`../../assets/images/excos/${img}`)} alt="" className=" skew-y-6 object-fill mx-auto scale-110"/>}
+                        {!img && <img src={require(`../../assets/images/excos/default.jpg`)} alt="" className=" skew-y-6 object-fill mx-auto scale-110"/>}
                     </div>
                     <div className="skew-y-6 pt-14 pb-8">
                         <p className="leading-4 text-gray-500 font-semibold uppercase text-xl">{roleName}</p>
@@ -98,12 +99,21 @@ const ExcoSect = () => {
                 <ExcoCard
                     roleName={'academic unit coordinator'}
                     excoName={'Adebanji Emmanuel'}
-                    dept={'Meechanical Engineering'}
+                    dept={'Mechanical Engineering'}
                     lvl={200}
                     verse={'Psa. 34:1'}
                     moment={'100 level hangout day'}
                     fun={'I love learning new things'}
                     img={'adebanji_emmanuel.jpg'} />   
+                <ExcoCard
+                    roleName={'choir coordinator'}
+                    excoName={'Arowolo Samuel'}
+                    dept={'Computer Engineering'}
+                    lvl={400}
+                    verse={'Col 3:16'}
+                    moment={'Praise and worship session'}
+                    fun={''}
+                    img={'arowolo_samuel.jpg'} />   
                 <ExcoCard
                     roleName={'decorating unit coordinator'}
                     excoName={'Love Oluwabukola'}
@@ -140,6 +150,15 @@ const ExcoSect = () => {
                     moment={'Every moment is my favourite moment'}
                     fun={'Helping people to grow 🌱'}
                     img={'adeboye_godspower.jpg'} />
+                <ExcoCard
+                    roleName={'Ushering Unit Coordinator'}
+                    excoName={'Adekiya Seun Mary'}
+                    dept={'Agricultural & Resource Economics'}
+                    lvl={400}
+                    verse={'Phil. 4:13'}
+                    moment={'12-hour prayer session under President Kele tenure.'}
+                    fun={'I love chatting'}
+                    img={'adekiya_seun.jpg'} />
                 <div className="zoomIn px-4 py-8 md:px-8 md:col-span-3 font-bold -skew-y-6">
                     <p className="revealTop uppercase text-2xl leading-3">level</p>
                     <p className="revealTop text-brightRed uppercase text-4xl">coordinators</p>
@@ -162,6 +181,15 @@ const ExcoSect = () => {
                     moment={'Staying in WCF secretaiat 🏡'}
                     fun={'I am gentle but I can disturb too'}
                     img={'femi_oloba.jpg'} />
+                <ExcoCard
+                    roleName={'300l coordinator'}
+                    excoName={'Adenuga Joshua'}
+                    dept={'Meteorology & Climate Science'}
+                    lvl={300}
+                    verse={'Joshua 1:8'}
+                    moment={'The day I joined publicity unit📸'}
+                    fun={'I can do a lot a things!'}
+                    img={'adenuga_joshua.jpg'} />
                 <ExcoCard
                     roleName={'300l assistant coordinator'}
                     excoName={'Bamidele Heritage'}
@@ -189,12 +217,21 @@ const ExcoSect = () => {
                     moment={'Whenver we sing the family song 👨‍👩‍👧‍👧'}
                     fun={'Hanging out with friends'}
                     img={'omoyeni_oreoluwa.jpg'} />
+                <ExcoCard
+                    roleName={'100l coordinator'}
+                    excoName={'Sunday Oche Chukwuemeka'}
+                    dept={'Statistics'}
+                    lvl={500}
+                    verse={'Psa. 107:23'}
+                    moment={'The list of great memories is endless!!'}
+                    fun={'I like to travel 🚌'}
+                    img={'sunday_oche.jpg'} />
                 
                 <div  className="md:hidden absolute left-0 bottom-0 text-center w-full py-8 bg-gradient-to-b from-transparent to-white"
                     onClick={(e) => {showFullSect(e)}}
                     >
                     <button 
-                        className="bg-brightRed text-white shadow-xl rounded-3xl px-6 py-2"
+                        className="bg-brightRed text-white shadow-xl rounded-3xl px-6 py-2 animate-bounce"
                         >
                     View All Excos
                     </button>

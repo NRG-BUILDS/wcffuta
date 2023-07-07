@@ -10,9 +10,9 @@ const UpcoProSect = () => {
     useEffect(() => {
         if (today < 2) {
             setDayOfEvent('This Tuesday')    //for days before tuesday and after friday
-        } else if (today === 3) {
+        } else if (today === 2) {
             setDayOfEvent('Today')
-        } else if (today > 3 && today < 5) {
+        } else if (today >= 3 && today < 5) {
             setDayOfEvent('This Friday')     //for days after tuesday but bofore saturday
         } else if (today === 5) {
             setDayOfEvent('Today')

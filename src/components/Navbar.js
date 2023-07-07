@@ -3,7 +3,7 @@ import closeLogo from '../assets/icons/icon-close.svg'
 
 const Navbar = () => {
     const handleClick = (e) => {
-        console.log(document.querySelector('.navMenu'))
+        (document.querySelector('.navMenu'))
         let nav = document.querySelector('.navMenu')
 
         if (nav.classList.contains('active')) {

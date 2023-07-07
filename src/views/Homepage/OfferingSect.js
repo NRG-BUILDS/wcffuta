@@ -1,6 +1,6 @@
 const OfferingSect = () => {
     return (
-        <div>
+        <div className="px-10">
             <h1 className="text-2xl">Account Number</h1>
             <p> 20 2376 4220</p>
             <h1 className="text-2xl">Bank</h1>

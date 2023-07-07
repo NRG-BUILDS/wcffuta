@@ -1,6 +1,5 @@
 const DropCard = ({topic, img, content, id}) => {
     const handleClick = (e) => {
-        console.log(e)
         if (e.currentTarget.nextSibling.classList.contains('active')) {
             e.currentTarget.nextSibling.classList.remove('active')
         } else {
@@ -18,8 +17,12 @@ const DropCard = ({topic, img, content, id}) => {
                     </div>
                     
                 </div>
-                <div className='Card overflow-y-auto mt-2 px-10 leading-loose text-center hover:shadow-xl'>
-                    {content}
+                <div className='Card overflow-y-auto mt-2 leading-loose text-center hover:shadow-xl relative'>
+                    
+                    <div className=" relative z-10">
+                        {content}
+                    </div>
+                      <img src={require(`../assets/images/${img}`)} alt="" className="absolute top-0 left-0 w-full h-full z-0 opacity-20 object-cover"/>
                 </div>
             </div>
             

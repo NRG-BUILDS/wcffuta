@@ -11,9 +11,14 @@ const MissionSect = () => {
                 <div className='revealTop py-8'>
                     <h2 className="text-2xl">Our Vision</h2>
                     <p>
-                        Blogr is a free and open source application backed by a large community of helpful developers. It supports 
-                        features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
-                        and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+                        <span className="text-7xl opacity-50 font-extrabold hover:opacity-100 duration-100">1</span>
+                        To raise students whose destinies are moulded through the word of faith and prayers.
+                    </p>
+                    <p className='py-4'>
+                        <span className="text-7xl opacity-50 font-extrabold hover:opacity-100 duration-100">2</span>
+                        Leading students to Christ and preparing them to become reliable men and woman that God can entrust with His word for the next generation.
+                        <br/>
+                        Jeremiah 17:10
                     </p>
                 </div>
                 
@@ -39,8 +44,12 @@ const MissionSect = () => {
                         Give Offerings
                         <span className="material-icons-outlined ml-2">payments</span>
                     </a>
+                    <a href="/#social" className="quickLink">
+                        Our Social Handles
+                        <span className="material-icons-outlined ml-2">thumbs_up</span>
+                    </a>
                     <a href="/#more" className="quickLink">
-                        More about WCF...
+                        More from WCF...
                         <span className="material-icons-outlined ml-2">help</span>
                     </a>
                 </div>

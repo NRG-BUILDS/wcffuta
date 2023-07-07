@@ -8,6 +8,7 @@ import UpcoProSect from "./UpcoProSect";
 import OfferingSect from './OfferingSect'
 import MagLinkSect from "./MagLinkSect";
 import ExcoSect from "./ExcoSect";
+import Timetable from "./Timetable";
 
 const Home = () => {
     return ( 
@@ -28,7 +29,8 @@ const Home = () => {
                 <DropCard topic={'Our Family Song'} img={'familysong.jpg'} content={<FamilySngSect />} id={'familySong'}/>
                 <DropCard topic={'Give Offerings'} img={'offering.jpg'} content={<OfferingSect />} id={'offering'}/>
                 <DropCard topic={'Our E-magazines'} img={'magazine.jpg'} content={<MagLinkSect />}/>
-                <DropCard topic={'Special Announcements'} img={'magazine.jpg'} content={<AnnouncSect />} />
+                <DropCard topic={'Tutorials Time Table'} img={'tutorial.jpg'} content={<Timetable />} />
+                <DropCard topic={'Special Announcements'} img={'announcement.jpg'} content={<AnnouncSect />} />
             </div>
             </div>
 
