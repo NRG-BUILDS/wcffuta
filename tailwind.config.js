@@ -14,12 +14,10 @@ module.exports = {
         brightRed: '#ff0000',
 
         heroRed: "hsl(353, 100%, 62%)",
-        blueBgDark: 'hsl(237, 17%, 21%)',
         blueBgLight: 'hsl(237, 23%, 32%)',
-        heroRedLight: 'hsl(13, 100%, 72%)'
       },
       borderRadius: {
-        bigCorner: '100px',
+        bigCorner: '999px',
       }
     },
   },
