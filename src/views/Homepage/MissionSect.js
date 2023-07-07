@@ -46,7 +46,7 @@ const MissionSect = () => {
                     </a>
                     <a href="/#social" className="quickLink">
                         Our Social Handles
-                        <span className="material-icons-outlined ml-2">thumbs_up</span>
+                        <span className="material-icons-outlined ml-2">thumb_up</span>
                     </a>
                     <a href="/#more" className="quickLink">
                         More from WCF...
