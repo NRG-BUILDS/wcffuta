@@ -39,7 +39,7 @@ const ExcoSect = () => {
             </div>
             <div className="excoSect grid md:grid-cols-3 gap-5 max-w-5xl mx-auto px-4 py-10 justify-evenly items-center md:h-full relative overflow-clip duration-100 pb-10">
                 <ExcoCard
-                    roleName={'president & brother\'s coordinator'}
+                    roleName={'coordinator 001 & brother\'s coordinator'}
                     excoName={'Justice Daniel Adeyemi'}
                     dept={'Mechanical Engineering'}
                     lvl={500}
@@ -48,7 +48,7 @@ const ExcoSect = () => {
                     fun={'Though I look serious and spiritual, which I actually try to be by God\'s grace, I am quite jovial, for those who know me closely.'}
                     img={'justice_adeyemi.jpg'} />
                 <ExcoCard
-                    roleName={'vice-president & sister\'s coordinator'}
+                    roleName={'coordinator 002 & sister\'s coordinator'}
                     excoName={'Abu Glory Ojima'}
                     dept={'Quantity Surveying'}
                     lvl={500}
@@ -75,7 +75,7 @@ const ExcoSect = () => {
                     fun={'I joke a lot 😂'}
                     img={'lebi_oluwatodimu.jpg'} />
                 <ExcoCard
-                    roleName={'financial secretary'}
+                    roleName={'financial secretary & 100l assistant'}
                     excoName={'Balogun Precious'}
                     dept={'Applied Geology'}
                     lvl={500}
@@ -129,8 +129,8 @@ const ExcoSect = () => {
                     dept={'Quantity Surveying'}
                     lvl={400}
                     verse={'Deut 1:11'}
-                    moment={'Moment of worship 🙏'}
-                    fun={'I am just curious. It can be fun and annoying also'}
+                    moment={'Night rehearsals before drama night 🎬'}
+                    fun={'I love finding ingenious ways to do less work'}
                     img={'okoye_lotachi.jpg'} />
                 <ExcoCard
                     roleName={'Evangelism Unit (South Gate) Cooridnator & 500l Coordinator'}
@@ -150,6 +150,15 @@ const ExcoSect = () => {
                     moment={'Every moment is my favourite moment'}
                     fun={'Helping people to grow 🌱'}
                     img={'adeboye_godspower.jpg'} />
+                <ExcoCard
+                    roleName={'Assistant Prayer Coordinator'}
+                    excoName={'Olaniyi Olamide'}
+                    dept={'Human Anatomy'}
+                    lvl={300}
+                    verse={'Phil. 4:13'}
+                    moment={'Singing the family song'}
+                    fun={'I don\'t hold grudges 🕊'}
+                    img={'olaniyi_olamide.jpg'} />
                 <ExcoCard
                     roleName={'Ushering Unit Coordinator'}
                     excoName={'Adekiya Seun Mary'}
@@ -218,7 +227,7 @@ const ExcoSect = () => {
                     fun={'Hanging out with friends'}
                     img={'omoyeni_oreoluwa.jpg'} />
                 <ExcoCard
-                    roleName={'100l coordinator'}
+                    roleName={'100l coordinator & special duties coordinator'}
                     excoName={'Sunday Oche Chukwuemeka'}
                     dept={'Statistics'}
                     lvl={500}
