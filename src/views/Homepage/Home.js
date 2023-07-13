@@ -25,13 +25,14 @@ const Home = () => {
                 </div>
                 
            
-            <div className="grid gap-y-4 md:grid-cols-2 items-center max-w-4xl mx-auto relative">
-                <DropCard topic={'Our Family Song'} img={'familysong.jpg'} content={<FamilySngSect />} id={'familySong'}/>
-                <DropCard topic={'Give Offerings'} img={'offering.jpg'} content={<OfferingSect />} id={'offering'}/>
-                <DropCard topic={'Our E-magazines'} img={'magazine.jpg'} content={<MagLinkSect />}/>
-                <DropCard topic={'Tutorials Time Table'} img={'tutorial.jpg'} content={<Timetable />} />
-                <DropCard topic={'Special Announcements'} img={'announcement.jpg'} content={<AnnouncSect />} />
-            </div>
+                <div className="grid gap-y-4 md:grid-cols-2 items-center max-w-4xl mx-auto relative">
+                    <DropCard topic={'Our Family Song'} img={'familysong.jpg'} content={<FamilySngSect />} id={'familySong'}/>
+                    <DropCard topic={'Give Offerings'} img={'offering.jpg'} content={<OfferingSect />} id={'offering'}/>
+                    <DropCard topic={'Our E-magazines'} img={'magazine.jpg'} content={<MagLinkSect />}/>
+                    <DropCard topic={'Tutorials Time Table'} img={'tutorial.jpg'} content={<Timetable />} />
+                    <DropCard topic={'Special Announcements'} img={'announcement.jpg'} content={<AnnouncSect />} />
+                </div>
+                
             </div>
 
             {/* <HighlightSection /> */}

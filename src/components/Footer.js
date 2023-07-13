@@ -14,9 +14,9 @@ const Footer = () => {
     const date = new Date();
     const year = date.getFullYear()
     return ( 
-        <footer className='bg-black text-white mt-10 px-4 py-10 pt-40 relative  overflow-hidden'>
+        <footer className='bg-black text-white mt-10 relative  overflow-hidden'>
             <div className="relative z-10">
-                <div className='text-center mx-auto'>
+                <div className='text-center  py-10 pt-32 px-4 mx-auto'>
                     <img src={logo} alt="" className='mx-auto w-40'/>
                     <h3 className=' text-xl'>Winners Campus Fellowship, FUTA</h3>
                 </div>

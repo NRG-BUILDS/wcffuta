@@ -17,7 +17,7 @@ const SocialSect = () => {
                 <a href="https://www.youtube.com/@wcffuta-media">
                     <div className="border-b-2 border-white flex justify-between items-center p-4">
                         <img src={yt} alt="" className="w-12 h-12" />
-                        <p>Watch LIVE @wcffuta-media</p>
+                        <p>Watch @wcffuta-media</p>
                     </div>
                 </a>
                 <a href="https://www.mixlr.com/wcf-futa-online">
@@ -26,7 +26,7 @@ const SocialSect = () => {
                             <img src={mixlr} alt="" className="w-12 h-12" />
                         </div>
                         
-                        <p>Listen LIVE @wcf-futa-online</p>
+                        <p>Listen @wcf-futa-online</p>
                     </div>
                 </a>
                 {/* <div className="pt-10 flex justify-center items-center gap-4 px-6">

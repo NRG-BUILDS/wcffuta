@@ -3,9 +3,13 @@ import wcfLogo from '../../assets/images/wcfLogoDark.png'
 
 const MissionSect = () => {    
     return ( 
-        <section className="leftCorner -mt-40 bg-deepRed relative outline-red-700 py-44 z-30 text-gray-50">
+        <section className="leftCorner  bg-deepRed relative outline-red-700 pb-32 z-30 text-gray-50">
+            <video controls={true} autoplay={true} muted loop={true} width={'100%'}>
+                    <source src={'/pub_assets/wcfvid.mp4'} type='video/mp4'/>
+                </video>
             <div className=" grid p-6 md:px-4 md:grid-cols-2 gap-10 items-center max-w-4xl mx-auto">
-                <div className='skew-y-12 md:skew-y-6 h-60 w-full overflow-clip'>
+            
+                <div className=' h-60 w-full overflow-clip'>
                     <img src={homePic1} alt="Winners Campus Fellowship" className='parallelogramPic -skew-y-12 h-full w-full duration-100 object-cover'/>
                 </div>
                 <div className='revealTop py-8'>

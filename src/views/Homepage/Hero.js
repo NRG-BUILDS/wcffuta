@@ -2,7 +2,7 @@ import heroBg from '../../assets/images/heroBg.jpg'
 import logo from '../../assets/images/wcfLogoLight.png'
 const Hero = () => {
     return ( 
-        <header className="hero bg-deepRed text-white flex items-center absolute top-0 pb-10 h-screen w-full z-40">
+        <header className="hero bg-deepRed text-white flex items-center top-0 pb-10 h-screen w-full z-40">
             <div className="revealTop items-center max-w-xl mx-auto px-8 relative z-40">
                 <div>
                     <img src={logo} alt="" className=' w-28 h-28 md:h-60 md:w-60 md:mx-auto'/>
