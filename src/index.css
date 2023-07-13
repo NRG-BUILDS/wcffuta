@@ -5,9 +5,12 @@
 html {
     scroll-behavior: smooth;
 }
-
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 h1, h2, h5 {
-    @apply font-bold my-2
+    @apply font-bold my-2;
+    font-weight: 700;    
 }
 nav {
     height: 0vh;
@@ -44,7 +47,7 @@ nav>div, .navBtn {
         transform: rotateY(360deg);
     }
 }
-.hero, .rightCorner {
+ .rightCorner {
 
     position: relative;
     clip-path: polygon(
@@ -58,7 +61,7 @@ nav>div, .navBtn {
     height: 90vh
 }
 @media screen and (min-width: 650px) { 
-    .hero, .rightCorner {
+    .rightCorner {
         clip-path: polygon(
         0 0,
         100% 0,
