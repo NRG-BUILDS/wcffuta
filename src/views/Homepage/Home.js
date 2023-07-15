@@ -9,6 +9,7 @@ import OfferingSect from './OfferingSect'
 import MagLinkSect from "./MagLinkSect";
 import ExcoSect from "./ExcoSect";
 import Timetable from "./Timetable";
+import NewSect from "./NewSect";
 
 const Home = () => {
     return ( 
@@ -16,6 +17,7 @@ const Home = () => {
             <Hero />
             <MissionSect />
             <UpcoProSect />
+            <NewSect />
             <ExcoSect />
             <SocialSect />
             <div className=" py-24" id="more">
