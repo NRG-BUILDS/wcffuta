@@ -17,7 +17,7 @@ module.exports = {
         blueBgLight: 'hsl(237, 23%, 32%)',
       },
       borderRadius: {
-        bigCorner: '999px',
+        roundBottom: '999px',
       }
     },
   },
