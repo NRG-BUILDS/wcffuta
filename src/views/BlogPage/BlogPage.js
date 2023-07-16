@@ -1,13 +1,15 @@
 import Navbar from "../../components/Navbar";
+import Hero from "./Hero";
+import QuickLinkSect from "./QuickLinkSect";
 
 const BlogPage = () => {
     return ( 
-        <>
+        <main>
             <Navbar />
-            <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-screen ">
-                Coming Soon Kids...
-            </div>
-        </>
+
+            <Hero />
+            <QuickLinkSect />
+        </main>
         
      );
 }

@@ -17,7 +17,7 @@ const NewSect = () => {
                 </div>
                 
                 <div className='py-8 px-4'>
-                    <img src={magazine} alt="" className=" w-10/12 mx-auto -rotate-12 shadow-2xl"/>
+                    <img src={magazine} alt="" className="ani-magazine w-10/12 mx-auto shadow-2xl"/>
                 </div>
             </div> 
             <div className="text-center rounded-xl bg-white py-8 px-4 max-w-md mx-auto">
