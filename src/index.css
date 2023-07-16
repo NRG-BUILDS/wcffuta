@@ -95,6 +95,9 @@ nav>div, .navBtn {
     background: linear-gradient(45deg, #c1bcf7, #e9d7f5, #ffd5d5);
     background-size: 900% 100%;
 }
+.ani-magazine {
+    animation: ani-magazine 3s linear infinite alternate;
+}
 .excoSect {
     height: 30rem;
 }
@@ -130,6 +133,12 @@ nav>div, .navBtn {
     scale: 1;
     opacity: 1;
 }
+
+
+/* /////////////// PUBLICITY PAGE ///////////////////////////// */
+.publicity_header {
+    font-family: 'Lobster Two', cursive;
+}
 /* ////////////// ANIMATIONS //////// */
 @keyframes flash {
     0% {
@@ -147,6 +156,14 @@ nav>div, .navBtn {
     }
     100% {
         transform: rotateY(360deg);
+    }
+}
+@keyframes ani-magazine {
+    0% {
+        transform: translateY(-18px) rotate(-12deg);
+    }
+    100% {
+        transform: translateY(0px) rotate(-12deg);
     }
 }
 @keyframes ani-bg {
