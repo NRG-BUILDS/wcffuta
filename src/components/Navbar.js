@@ -1,6 +1,5 @@
 import logo from '../assets/images/wcfLogoDark.png'
 import closeLogo from '../assets/icons/icon-close.svg'
-import { useEffect } from 'react'
 
 const Navbar = () => {
     const handleClick = (e) => {
