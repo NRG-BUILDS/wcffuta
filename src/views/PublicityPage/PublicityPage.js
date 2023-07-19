@@ -1,5 +1,4 @@
 import Footer from "../../components/Footer";
-import MagaSect from "../Homepage/MagLinkSect";
 import Hero from "./Hero";
 import MagSect from "./MagSect";
 import QuickLinkSect from "./QuickLinkSect";
