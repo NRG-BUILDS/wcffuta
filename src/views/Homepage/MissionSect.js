@@ -4,7 +4,7 @@ import wcfLogo from '../../assets/images/wcfLogoDark.png'
 const MissionSect = () => {    
     return ( 
         <section className="leftCorner  bg-deepRed relative outline-red-700 pb-32 z-30 text-gray-50">
-            <video controls={true} autoplay={true} muted loop={true} width={'100%'}>
+            <video muted autoPlay loop width={'100%'} >
                     <source src={'/pub_assets/wcfvid.mp4'} type='video/mp4'/>
                 </video>
             <div className=" grid p-6 md:px-4 md:grid-cols-2 gap-10 items-center max-w-4xl mx-auto">

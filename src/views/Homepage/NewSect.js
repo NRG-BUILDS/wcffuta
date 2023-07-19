@@ -1,6 +1,5 @@
 import img from '../../assets/images/new_asset.png'
 import magazine from '../../assets/images/magazine_cover.jpg'
-import { Link } from 'react-router-dom/cjs/react-router-dom';
 
 const NewSect = () => {
     return ( 
@@ -17,7 +16,7 @@ const NewSect = () => {
                 </div>
                 
                 <div className='py-8 px-4'>
-                    <img src={magazine} alt="" className="ani-magazine w-10/12 mx-auto shadow-2xl"/>
+                    <img src={magazine} alt="" className="ani-magazine w-10/12 h-full mx-auto shadow-2xl"/>
                 </div>
             </div> 
             <div className="text-center rounded-xl bg-white py-8 px-4 max-w-md mx-auto">
@@ -33,7 +32,7 @@ const NewSect = () => {
 
                 <p>Visit the publicity unit page to download our maiden edition ✨</p>
 
-                <Link to="/blog" className="block w-3/4 mx-auto bg-fuchsia-200 text-white font-extrabold rounded-xl py-2 px-6 my-8">Visit Our Page</Link>
+                <a href="/publicity" className="block w-3/4 mx-auto bg-fuchsia-200 text-white font-extrabold rounded-xl py-2 px-6 my-8">Visit Our Page</a>
             </div>   
         </section>
      );

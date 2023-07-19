@@ -2,8 +2,8 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './views/Homepage/Home';
 import Navbar from './components/Navbar';
-import BlogPage from './views/BlogPage/BlogPage';
-import Footer from './components/Footer';
+import BlogPage from './views/PublicityPage/PublicityPage';
+
 function App() {
 
   return (
@@ -13,11 +13,10 @@ function App() {
         <main className="content">
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route path='/blog' component={BlogPage} />
+            <Route exact path='/publicity' component={BlogPage} />
             
           </Switch>
         </main> 
-        <Footer />
     </div>
     </Router>
   );

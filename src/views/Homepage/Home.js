@@ -10,6 +10,7 @@ import MagLinkSect from "./MagLinkSect";
 import ExcoSect from "./ExcoSect";
 import Timetable from "./Timetable";
 import NewSect from "./NewSect";
+import Footer from "../../components/Footer";
 
 const Home = () => {
     return ( 
@@ -36,7 +37,7 @@ const Home = () => {
                 </div>
                 
             </div>
-
+            <Footer />
             {/* <HighlightSection /> */}
         </>
      );
