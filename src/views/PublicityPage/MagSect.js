@@ -23,7 +23,7 @@ const MagCard = ({name, link, pic}) => {
 const MagSect = () => {
     return ( 
         <section className="max-w-4xl mx-auto" id="magazine">
-            <div className="text-center py-8 px-4">
+            <div className="text-center pt-24 pb-20 px-4">
                 <h2 className="text-4xl revealTop font-light">The WCF magzine...</h2>
                 <h2 className="text-xl font-light py-2">...publish and conceal not... <br /> <b>Jeremiah 50:2</b></h2>
                 <details>

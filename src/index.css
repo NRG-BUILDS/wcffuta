@@ -21,11 +21,13 @@ nav.active {
 }
 nav>div, .navBtn {
     backdrop-filter: blur(12px);
-    background-color: rgba(255, 255, 255, 0.6);
 }
 .navBtn:active {
     animation: spin .9s;
 }
+.navBtnText {
+    transition: .6s ease-in-out;
+} 
 .flashyBorder {
     animation: flash 1s infinite alternate;
 }

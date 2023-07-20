@@ -24,7 +24,7 @@ const Navbar = () => {
     
     return (
        <>
-            <nav className='navMenu fixed top-0 left-0 w-full overflow-hidden text-right z-50 font-light'>
+            <nav className='navMenu fixed top-0 left-0 w-full overflow-hidden text-right z-50 font-light bg-white bg-opacity-50'>
                 <div className='flex items-center justify-end h-screen  w-screen px-6'>
                     <div>
                         <a href="/" className='block px-6 py-6 -skew-y-6 hover:text-deepRed hover:underline text-4xl' onClick={handleClick}>
@@ -49,8 +49,28 @@ const Navbar = () => {
                 </div>
             </nav>
             <Navbutton handleClick={handleClick} />
+            <TopNav handleClick={handleClick} />
        </>
     );
+}
+const TopNav = ({handleClick}) => {
+   
+    return (
+        <section className='topNav fixed top-0 left-0 w-full z-50 shadow-lg bg-opacity-80 backdrop-blur transition duration-300'>
+            <div className="topNav py-4 px-6 flex justify-between items-center">
+                <div className=" h-14 w-14">
+                    <img src={logo} alt="" />
+                </div>
+                <div>
+                    <button onClick={handleClick}>
+                        <span className="material-icons-outlined text-4xl">menu</span>
+
+                    </button>
+                </div>
+            </div>
+        </section>
+        
+    )
 }
 const Navbutton = ({handleClick}) => {
     const handleButton = () => {
