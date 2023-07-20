@@ -58,7 +58,21 @@
         }
         // To check the scroll position on page load
         reveal();
-
+        function topNavReveal() {
+          let navBar = document.querySelector('.topNav');
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+              navBar.classList.add('bg-white');
+              navBar.classList.add('text-black');
+              navBar.classList.remove('bg-transparent');
+              navBar.classList.remove('text-white')
+        } else {
+            navBar.classList.remove('bg-white');
+            navBar.classList.remove('text-black')
+            navBar.classList.add('bg-transparent');
+            navBar.classList.add('text-white')
+        }
+    }
+    window.addEventListener('scroll', topNavReveal)
     </script>
   </body>
 </html>
