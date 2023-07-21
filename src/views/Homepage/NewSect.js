@@ -21,7 +21,7 @@ const NewSect = () => {
             </div> 
             <div className="text-center rounded-xl bg-white py-8 px-4 max-w-md mx-auto">
                 <h3 className="uppercase font-extrabold opacity-50">introducing</h3>
-                <h2 className="font-serif font-light text-3xl">WCFFUTA MAGAZINE</h2>
+                <h2 className="font-serif font-light text-3xl">WCF FUTA MAGAZINE</h2>
 
                 <p className="border-t border-b my-4 py-2">
                     Following the instruction from scriptures to <i>publish, publish, publish!</i> in <b>Jeremiah 50:2</b>
