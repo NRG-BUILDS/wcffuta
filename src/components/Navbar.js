@@ -90,35 +90,35 @@ const TopNav = ({handleClick}) => {
         
     )
 }
-const Navbutton = ({handleClick}) => {
-    const handleButton = () => {
+// const Navbutton = ({handleClick}) => {
+//     const handleButton = () => {
 
-        setTimeout(() => {
-            let btnText = document.querySelector('.navBtnText')
-            btnText.classList.remove('w-20')
-            btnText.classList.add('w-0')
+//         setTimeout(() => {
+//             let btnText = document.querySelector('.navBtnText')
+//             btnText.classList.remove('w-20')
+//             btnText.classList.add('w-0')
             
-            setTimeout(() => {
-                btnText.style.display = 'none'
-            }, 500)
+//             setTimeout(() => {
+//                 btnText.style.display = 'none'
+//             }, 500)
             
-        }, 2500)
-    }
+//         }, 2500)
+//     }
     
-    return ( 
+//     return ( 
         
-            <div className="flashyBorder fixed bottom-4 right-4 z-50 flex items-center justify-center gap-4 rounded-full border-2 bg-white border-red-600 bg-opacity-60 p-4 navBtn">
-                <button onLoad={() => {
-                    handleButton();}} onClick={(e) => {handleClick(e)}}>
-                    <img src={logo} alt="" className='h-12 w-12'/>
-                </button>
-                <div className="navBtnText w-20 overflow-hidden  text-center">
-                    <h4 className="uppercase tracking-wider opacity-75 font-extrabold mt-2">menu</h4>
-                </div>
-            </div>
+//             <div className="flashyBorder fixed bottom-4 right-4 z-50 flex items-center justify-center gap-4 rounded-full border-2 bg-white border-red-600 bg-opacity-60 p-4 navBtn">
+//                 <button onLoad={() => {
+//                     handleButton();}} onClick={(e) => {handleClick(e)}}>
+//                     <img src={logo} alt="" className='h-12 w-12'/>
+//                 </button>
+//                 <div className="navBtnText w-20 overflow-hidden  text-center">
+//                     <h4 className="uppercase tracking-wider opacity-75 font-extrabold mt-2">menu</h4>
+//                 </div>
+//             </div>
 
         
-     );
-}
+//      );
+// }
  
 export default Navbar;
