@@ -11,6 +11,8 @@ import ExcoSect from "./ExcoSect";
 import Timetable from "./Timetable";
 import NewSect from "./NewSect";
 import Footer from "../../components/Footer";
+import PodcastSect from "./PodcastSect";
+import TestimonySect from "./TestimonySect";
 
 const Home = () => {
     return ( 
@@ -19,8 +21,10 @@ const Home = () => {
             <MissionSect />
             <UpcoProSect />
             <NewSect />
+            <PodcastSect />
             <ExcoSect />
             <SocialSect />
+            <TestimonySect />
             <div className=" py-24" id="more">
                 <div className="px-4 -skew-y-6">
                     <h2 className=" text-4xl leading-3">More From</h2>

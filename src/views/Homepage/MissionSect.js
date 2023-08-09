@@ -36,6 +36,10 @@ const MissionSect = () => {
                         Upcoming Services & Events
                         <span className="material-icons-outlined ml-2">event</span>
                     </a>
+                    <a href="#podcasts" className="quickLink">
+                        Get Recorded Messages
+                        <span className="material-icons-outlined ml-2">mic</span>
+                    </a>
                     <a href="/#familySong" className="quickLink">
                         Our Family Song
                         <span className="material-icons-outlined ml-2">diversity_1</span>

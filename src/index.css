@@ -100,6 +100,9 @@ nav>div, .navBtn {
 .ani-magazine {
     animation: ani-magazine 3s linear infinite alternate;
 }
+.Open {
+    animation: Open 1 ease;
+}
 .excoSect {
     height: 30rem;
 }
@@ -159,6 +162,15 @@ nav>div, .navBtn {
     100% {
         transform: rotateY(360deg);
     }
+}
+@keyframes Open {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+    
 }
 @keyframes ani-magazine {
     0% {

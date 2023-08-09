@@ -1,7 +1,7 @@
 
 const MagaSect = () => {
     return (
-        <div className="px-10 h-full flex justify-center items-center">
+        <div className="py-10 px-10 h-full flex justify-center items-center">
             <div>
                  <h1 className="text-2xl">Visit Our Blog Page</h1>
                     <p>for our weekly magazines on spirit, school and so much more... </p>

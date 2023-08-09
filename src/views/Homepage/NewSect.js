@@ -3,7 +3,7 @@ import magazine from '../../assets/images/magazine_cover.jpg'
 
 const NewSect = () => {
     return ( 
-        <section className="ani-bg leftCorner px-4 pt-44 -mt-40 py-32">
+        <section className="ani-bg leftCorner px-4 pt-44 -mt-40 py-32 relative z-10">
             <div className='grid md:grid-cols-2 items-center max-w-4xl gap-10 mx-auto'>
                 <div className="grid grid-cols-2 items-center gap-5">
                     <div>
