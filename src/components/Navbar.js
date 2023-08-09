@@ -35,7 +35,7 @@ const Navbar = () => {
                             Quick Links
                             <span className='text-sm ml-2'>02</span>
                         </a>
-                        <a href="/" className='block px-6 py-6 -skew-y-6 hover:text-deepRed hover:underline text-4xl' onClick={handleClick}>
+                        <a href="/#map" className='block px-6 py-6 -skew-y-6 hover:text-deepRed hover:underline text-4xl' onClick={handleClick}>
                             Find us
                             <span className='text-sm ml-2'>03</span>
                         </a>
@@ -48,7 +48,7 @@ const Navbar = () => {
                     
                 </div>
             </nav>
-            <Navbutton handleClick={handleClick} />
+            {/* <Navbutton handleClick={handleClick} /> */}
             <TopNav handleClick={handleClick} />
        </>
     );
@@ -56,16 +56,34 @@ const Navbar = () => {
 const TopNav = ({handleClick}) => {
    
     return (
-        <section className='topNav fixed top-0 left-0 w-full z-50 shadow-lg bg-opacity-80 backdrop-blur transition duration-300'>
-            <div className="topNav py-4 px-6 flex justify-between items-center">
+        <section className='topNav md:bg-gradient-to-b from-red-950 to-transparent md:text-white fixed top-0 left-0 w-full z-50 shadow-lg md:shadow-none bg-opacity-90 md:bg-opacity-0 backdrop-blur md:backdrop-blur-0 transition duration-300'>
+            <div className="topNav py-4 px-6 md:py-0 flex justify-between items-center">
                 <div className=" h-14 w-14">
                     <img src={logo} alt="" />
                 </div>
-                <div>
+                <div className='md:hidden'>
                     <button onClick={handleClick}>
                         <span className="material-icons-outlined text-4xl">menu</span>
 
                     </button>
+                </div>
+                <div className='hidden md:flex font-extrabold'>
+                    <a href="/" className='block px-6 py-6 hover:text-deepRed hover:underline'>
+                    Home
+                        
+                    </a>
+                    <a href="/#quickLinks" className='block px-6 py-6 hover:text-deepRed hover:underline'>
+                        Quick Links
+                        
+                    </a>
+                    <a href="/#map" className='block px-6 py-6 hover:text-deepRed hover:underline'>
+                        Find us
+                        
+                    </a>
+                    <a href="/#more" className='block px-6 py-6 hover:text-deepRed hover:underline'>
+                        More
+                        
+                    </a>
                 </div>
             </div>
         </section>
