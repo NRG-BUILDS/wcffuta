@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 const TestimonySect = () => {
-    const [slide, setSlide] = useState(1)
+    const [slide] = useState(1)
     const [slideArray, setArray] = useState([])
 
     useEffect(() => {
