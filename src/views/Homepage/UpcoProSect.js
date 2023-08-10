@@ -32,8 +32,8 @@ const UpcoProSect = () => {
 
     //Edit this to edit event details
     const program = {
-        name: 'A Burning & Shining Light',
-        venue: 'Church Auditorium, Apatapiti Layout.',
+        name: 'DIscovering & Pursuing Our Purpose In Christ',
+        venue: 'Fellowship Auditorium, Apatapiti Layout.',
         time: '6pm'
     }
     
