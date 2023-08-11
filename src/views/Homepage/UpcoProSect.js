@@ -34,7 +34,7 @@ const UpcoProSect = () => {
     const program = {
         name: 'DIscovering & Pursuing Our Purpose In Christ',
         venue: 'Fellowship Auditorium, Apatapiti Layout.',
-        time: '6pm'
+        time: '5:30pm'
     }
     
     return ( 
