@@ -45,7 +45,7 @@ const MapSect = () => {
                 </div>
                 
                 <div className="">
-                    <img src={require(`../../assets/images/${maps[index].mapImg}`) } />
+                    <img src={require(`../../assets/images/${maps[index].mapImg}`) } alt='' />
                 </div>
                 <div className="flex gap-2 text-center py-4 justify-between items-center md:hidden">
                     <button
