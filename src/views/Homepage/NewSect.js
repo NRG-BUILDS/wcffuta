@@ -1,5 +1,6 @@
 import img from '../../assets/images/new_asset.png'
 import magazine from '../../assets/images/magazine_cover.jpg'
+import magazine2 from '../../assets/images/mag_covers/vol2.jpg'
 
 const NewSect = () => {
     return ( 
@@ -15,8 +16,9 @@ const NewSect = () => {
                     </div>
                 </div>
                 
-                <div className='py-8 px-4'>
-                    <img src={magazine} alt="" className="ani-magazine w-10/12 h-full mx-auto shadow-2xl"/>
+                <div className='py-8 px-4 relative w-9/12 h-96 mx-auto my-5'>
+                    <img src={magazine} alt="" className="ani-magazine absolute top-0 right-0 w-full h-full shadow-2xl z-10"/>
+                    <img src={magazine2} alt="" className="ani-magazine2 absolute top-0 right-0 w-full h-full shadow-2xl"/>
                 </div>
             </div> 
             <div className="text-center rounded-xl bg-white py-8 px-4 max-w-md mx-auto">

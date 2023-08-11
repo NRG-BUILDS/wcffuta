@@ -5,12 +5,12 @@ const MapSect = () => {
     const maps = [
         {
             name: 'Fellowship',
-            mapImg: 'GRAPHIC 1 GOES HERE',
+            mapImg: 'wcfMap.png',
             address: 'Opposite Rehoboth Lodge, Apatapiti Junction, South gate.'
         },
         {
             name: 'Main Church',
-            mapImg: 'GRAPHIC 2 GOES HERE',
+            mapImg: 'lfcMap.png',
             address: 'Along North Gate Road, Beside Akad Filling Station, AKure.'
         },
     ]
@@ -29,7 +29,7 @@ const MapSect = () => {
             <div className="grid md:grid-cols-2 gap-5 max-w-4xl mx-auto px-4 -skew-y-12 md:-skew-y-6">
                 <div className="mb-10 text-left">
                     <h2 className="bold text-xl leading-3 uppercase">how to find our</h2>
-                    <h2 className="bold text-2xl uppercase bg-gradient-to-b from-brightRed to-deepRed bg-clip-text text-transparent">{maps[index].name} auditroium</h2>
+                    <h2 className="bold text-2xl uppercase bg-gradient-to-b from-brightRed to-deepRed bg-clip-text text-transparent">{maps[index].name} auditorium</h2>
                     <div className="text-center py-4 justify-between items-center hidden md:flex gap-5">
                     <button
                         onClick={() => {nextMap(-1)}}
@@ -44,8 +44,8 @@ const MapSect = () => {
                 </div>
                 </div>
                 
-                <div className="border border-gray-400 h-80">
-                    {maps[index].mapImg}
+                <div className="">
+                    <img src={require(`../../assets/images/${maps[index].mapImg}`) } />
                 </div>
                 <div className="flex gap-2 text-center py-4 justify-between items-center md:hidden">
                     <button
