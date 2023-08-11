@@ -98,7 +98,10 @@ nav>div, .navBtn {
     background-size: 900% 100%;
 }
 .ani-magazine {
-    animation: ani-magazine 3s linear infinite alternate;
+    animation: ani-magazine 3s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite alternate;
+}
+.ani-magazine2 {
+    animation: ani-magazine2 3s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite alternate;
 }
 .Open {
     animation: Open 1 ease;
@@ -174,10 +177,18 @@ nav>div, .navBtn {
 }
 @keyframes ani-magazine {
     0% {
-        transform: translateY(-18px) rotate(-12deg);
+        transform: translateY(-18px) rotate(-16deg);
     }
     100% {
-        transform: translateY(0px) rotate(-12deg);
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+@keyframes ani-magazine2 {
+    0% {
+        transform: translateY(-18px) rotate(16deg);
+    }
+    100% {
+        transform: translateY(0px) rotate(0deg);
     }
 }
 @keyframes ani-bg {
