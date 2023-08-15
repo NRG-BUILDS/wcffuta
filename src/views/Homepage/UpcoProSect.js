@@ -32,7 +32,7 @@ const UpcoProSect = () => {
 
     //Edit this to edit event details
     const program = {
-        name: 'Christ's Healing Power',
+        name: "Christ's Healing Power",
         venue: 'Fellowship Auditorium, Apatapiti Layout.',
         time: '5:30pm'
     }
