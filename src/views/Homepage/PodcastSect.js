@@ -26,6 +26,8 @@ const AudioTrack = ({Date, Title, link}) => {
 const PodcastSect = () => {
     const [viewMore, setViewMore] = useState(false);
     const podcasts = [
+        {date: '21/08/2023', title: 'Prayer Stretch: Recharge', link: 'https://drive.google.com/drive/folders/1-0RhxfxbiTZiX0yYqK-YqUlAQ7nfXOQT'},
+        {date: '15/08/2023', title: 'Christ\'s Healing Power', link: 'https://drive.google.com/drive/folders/1-0RhxfxbiTZiX0yYqK-YqUlAQ7nfXOQT'},
         {date: '08/08/2023', title: 'Discovering & Pursuing Our Purpose in Christ', link: 'https://drive.google.com/file/d/1-CciesNrvZA3tGs9ENUb_adE4TvPAnIi/view?usp=drivesdk'},
         {date: '08/08/2023', title: 'More Coming Soon...', link: '#'},
         {date: '08/08/2023', title: 'More Coming Soon...', link: '#'},
