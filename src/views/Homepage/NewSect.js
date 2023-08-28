@@ -1,6 +1,6 @@
 import img from '../../assets/images/new_asset.png'
-import magazine from '../../assets/images/magazine_cover.jpg'
-import magazine2 from '../../assets/images/mag_covers/vol2.jpg'
+import magazine from '../../assets/images/mag_covers/vol2.jpg'
+import magazine2 from '../../assets/images/mag_covers/vol3.jpg'
 
 const NewSect = () => {
     return ( 
