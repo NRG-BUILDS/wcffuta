@@ -32,9 +32,9 @@ const UpcoProSect = () => {
 
     //Edit this to edit event details
     const program = {
-        name: "Relationship Service: The Godly Way to Love",
+        name: "Prayer Service",
         venue: 'Fellowship Auditorium, Apatapiti Layout.',
-        time: '5:30pm'
+        time: '6pm'
     }
     
     return ( 
