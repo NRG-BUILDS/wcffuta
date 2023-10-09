@@ -32,7 +32,7 @@ const UpcoProSect = () => {
 
     //Edit this to edit event details
     const program = {
-        name: "Question & Answer Service",
+        name: "The Ministry of The Holy Spirit",
         venue: 'Fellowship Auditorium, Apatapiti Layout.',
         time: '6pm'
     }
