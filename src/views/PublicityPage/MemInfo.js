@@ -1,6 +1,6 @@
 const MemInfo = [
     {
-        name: 'KIng David Olufemi',
+        name: 'King David Olufemi',
         aka: 'King David the second',
         isLeader: ' (Unit Coordinator)',
         inspiration: 'I was invited based on my skills, I started off helping out but wasn\'t committed until I decided to. Today I\'m grateful to God for what I did.',
@@ -11,6 +11,19 @@ const MemInfo = [
         biz: null,
         shoutOut: 'The entirety of PUBLICITY UNIT MEMBERS, both full and part time. Like I address you almost every morning...You are the best unit in WCFFUTA',
         pic: 'david_olufemi.jpg'
+    },
+    {
+        name: 'Olabosinde Elijah',
+        aka: 'Kekeina',
+        isLeader: ' (Unit P.R.O)',
+        inspiration: 'A passion to serve God',
+        subUnit: ['photography', 'videography', 'graphics', 'publication & press'],
+        skills: ['Fast learner', 'Drumming', 'Photography'],
+        favMember: 'King David',
+        moment: "The entire service",
+        biz: null,
+        shoutOut: 'Emmanuel, Joy and all publicity members',
+        pic: 'elijah.jpg'
     },
     {
         name: 'Adenuga Joshua',
@@ -36,19 +49,6 @@ const MemInfo = [
         biz: null,
         shoutOut: 'all WCF members',
         pic: 'ajax.jpg'
-    },
-    {
-        name: 'Olabosinde Elijah',
-        aka: 'Kekeina',
-        isLeader: ' (Unit P.R.O)',
-        inspiration: 'A passion to serve God',
-        subUnit: ['photography', 'videography', 'graphics', 'publication & press'],
-        skills: ['Fast learner', 'Drumming', 'Photography'],
-        favMember: 'King David',
-        moment: "The entire service",
-        biz: null,
-        shoutOut: 'Emmanuel, Joy and all publicity members',
-        pic: 'elijah.jpg'
     },
     {
         name: 'Joseph-Bello Favour',
