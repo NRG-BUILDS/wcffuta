@@ -147,6 +147,12 @@ nav>div, .navBtn {
 .publicity_header {
     font-family: 'Lobster Two', cursive;
 }
+.gradientWord { 
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to left, #ff3131, #a955f5);
+    -webkit-text-fill-color: transparent;
+  }
 /* ////////////// ANIMATIONS //////// */
 @keyframes flash {
     0% {
