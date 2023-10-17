@@ -7,8 +7,8 @@ const MagCard = ({name, desc, link, pic}) => {
             <div className='py-4 px-4 flex items-center'>
                 <div>
                     <h3 className="text-2xl font-light serif">{name}</h3>
-                    <div className="flex w-full justify-between">
-                        <p className="opacity-50 font-semibold whitespace-nowrap text-ellipsis w-40 hover:whitespace-normal overflow-hidden">{desc}</p>
+                    <div className="flex md:block w-full justify-between">
+                        <p className="opacity-50 font-semibold whitespace-nowrap text-ellipsis w-40 hover:whitespace-normal md:whitespace-normal overflow-hidden">{desc}</p>
                         <a href={link} className="inline-block"><span className="material-icons-outlined">download</span></a>
                     </div>
                 </div>
@@ -22,12 +22,13 @@ const MagCard = ({name, desc, link, pic}) => {
 
 const MagSect = () => {
     return ( 
-        <section className="max-w-4xl mx-auto" id="magazine">
-            <div className="text-center pt-24 pb-20 px-4">
-                <h2 className="text-4xl revealTop font-light">The WCF magzine...</h2>
+        <section className="max-w-4xl mx-auto pt-16" id="magazine">
+            <div className="text-center px-4">
+            <h1 className="publicity_header text-7xl font-light gradientWord">The WCF Magazine</h1>
+               
                 <h2 className="text-xl font-light py-2">...publish and conceal not... <br /> <b>Jeremiah 50:2</b></h2>
                 <details>
-                    <summary className="rounded-xl ani-bg inline-block py-2 px-6 font-extrabold text-white">
+                    <summary className="rounded-xl ani-bg inline-block py-2 px-6 font-extrabold text-white cursor-pointer">
                         <span >Read More About the Mag</span>
                     </summary>
                     <div className="p-3">
@@ -51,16 +52,6 @@ const MagSect = () => {
                     desc={'Welcome back kingdom priest'}
                     link={'https://drive.google.com/file/d/1185VwTHXlpJYZez1bH_FnhCmruk_t5-e/view?usp=drivesdk'}
                     pic={'vol2'}/>
-                <MagCard 
-                    name={'WCF Magazine Vol. 3'}
-                    desc={'As we prepare...'}
-                    link={'https://drive.google.com/file/d/150pgqyMtfqzr1v7KVrCQuEJF8ftOnNUp/view?usp=drivesdk'}
-                    pic={'vol3'}/>
-                <MagCard 
-                    name={'WCF Magazine Vol. 4'}
-                    desc={'Back Better than Ever!'}
-                    link={'https://drive.google.com/file/d/1Zh2vEhBHrXxqULJEgWt1Rt8h4ZRQY0li/view?usp=drivesdk'}
-                    pic={'vol4'}/>
             </div>
         </section>
      );

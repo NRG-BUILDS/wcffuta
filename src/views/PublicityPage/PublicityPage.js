@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer";
 import Hero from "./Hero";
 import MagSect from "./MagSect";
+import Members from "./Members";
 import QuickLinkSect from "./QuickLinkSect";
 
 const BlogPage = () => {
@@ -12,6 +13,7 @@ const BlogPage = () => {
             <Hero />
             <QuickLinkSect />
             <MagSect />
+            <Members />
 
         </main>
         <Footer />

@@ -1,7 +1,7 @@
 const QuickLinkSect = () => {
     return ( 
-        <section className="py-32 max-w-4xl mx-auto">
-            <h2 className="publicity_header text-2xl uppercase text-center">quickly jump into...</h2>
+        <section className="py-24 max-w-4xl mx-auto">
+            <h2 className="font-normal text-2xl uppercase text-center">quickly jump into...</h2>
             <div className="py-8 md:px-4 md:shadow-2xl rounded-3xl">
                 <a href="#magazine">
                     <div className="revealTop flex justify-between items-center py-6 px-6 my-6 md:my-10 bg-red-500 text-white rounded-r-full mr-6">
