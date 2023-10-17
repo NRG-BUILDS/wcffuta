@@ -52,6 +52,16 @@ const MagSect = () => {
                     desc={'Welcome back kingdom priest'}
                     link={'https://drive.google.com/file/d/1185VwTHXlpJYZez1bH_FnhCmruk_t5-e/view?usp=drivesdk'}
                     pic={'vol2'}/>
+                <MagCard 
+                    name={'WCF Magazine Vol. 3'}
+                    desc={'As we prepare...'}
+                    link={'https://drive.google.com/file/d/150pgqyMtfqzr1v7KVrCQuEJF8ftOnNUp/view?usp=drivesdk'}
+                    pic={'vol3'}/>
+                <MagCard 
+                    name={'WCF Magazine Vol. 4'}
+                    desc={'Back Better than Ever!'}
+                    link={'https://drive.google.com/file/d/1Zh2vEhBHrXxqULJEgWt1Rt8h4ZRQY0li/view?usp=drivesdk'}
+                    pic={'vol4'}/>
             </div>
         </section>
      );
