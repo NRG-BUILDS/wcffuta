@@ -17,7 +17,7 @@ const MemInfo = [
         aka: 'Kekeina',
         isLeader: ' (Unit P.R.O)',
         inspiration: 'A passion to serve God',
-        subUnit: ['photography', 'videography', 'graphics', 'publication & press'],
+        subUnit: ['photography', 'videography & YouTube', 'graphics', 'publication & press'],
         skills: ['Fast learner', 'Drumming', 'Photography'],
         favMember: 'King David',
         moment: "The entire service",
@@ -25,6 +25,32 @@ const MemInfo = [
         shoutOut: 'Emmanuel, Joy and all publicity members',
         pic: 'elijah.jpg'
     },
+    {
+        name: 'Olowo Kamiye',
+        aka: 'Kamiye',
+        isLeader: ' (Sub-unit Leader)',
+        inspiration: 'I was added to publicity unit by our previous vice president and my willingness to help the publicity of God\'s word kept me.',
+        subUnit: ['videography', 'social media'],
+        skills: ['Public speaking', 'Creative writing', 'Social management', 'Project management', 'Video editing', 'Content creation'],
+        favMember: 'Precious',
+        moment: "Has to be the IT sendforth for my set and the energy that comes from handover services",
+        biz: 'Meteorologist for the time being. Community manager and keynote speaker',
+        shoutOut: 'KIng David',
+        pic: 'kamiye.jpg'
+    },
+    /*{
+        name: 'Precious Ojo-numa',
+        aka: 'Numa',
+        isLeader: ' (Sub-unit Leader)',
+        inspiration: 'I was drawn to join the unit after I saw their coverage of the WCF Week 23 drama night. I was initially going to join as a part-time member but this unit is too interesting to be part of it only part-of-the-time',
+        subUnit: ['videography', 'social media'],
+        skills: ['"Alot"'],
+        favMember: null,
+        moment: "Has to be the IT sendforth for my set and the energy that comes from handover services",
+        biz: 'CEO Pancake Casual Corner, Tailored by UMA, Precious Noah TV on YouTube, upcoming Civil Engineer and Trillionaire',
+        shoutOut: 'ALl publicity members',
+        pic: 
+    },*/
     {
         name: 'Adenuga Joshua',
         aka: 'Big_Josh',
@@ -37,6 +63,19 @@ const MemInfo = [
         biz: 'Web design & Development, Digital Marketing, Home and office cleaning',
         shoutOut: 'my mum for giving birth to this awesome spec',
         pic: 'joshua.jpg'
+    },
+    {
+        name: 'Omolaju Emmanuel',
+        aka: 'NRG',
+        isLeader: ' (Sub-unit Leader)',
+        inspiration: 'To serve God and the interest of His kingdom with my skills and talents',
+        subUnit: ['graphics', 'publication & press'],
+        skills: ['Web development', 'Copywritng', 'Graphics design', 'Public speaking'],
+        favMember: 'My coord and assistant coord, as well as Joy and Joyful',
+        moment: "WCF Week '23",
+        biz: 'Web design & Development',
+        shoutOut: 'God, for bringing me to serve Him alongside some of the best people on the planet',
+        pic: 'emmanuel.jpg'
     },
     {
         name: 'Adedamola',
@@ -67,7 +106,7 @@ const MemInfo = [
         name: 'Alonge Ifeoluwa',
         aka: 'Ife',
         inspiration: 'Passion and zeal to serve God',
-        subUnit: ['Projection', 'Videography', 'Graphics'],
+        subUnit: ['Projection', 'Videography & YouTube', 'Graphics'],
         skills: ['cooking', 'diplomacy'],
         favMember: 'Dave and Favour',
         moment: "My first day at the fellowship",
@@ -79,7 +118,7 @@ const MemInfo = [
         name: 'Olaiye James',
         aka: 'Jaymz',
         inspiration: 'Passion to serve God',
-        subUnit: ['videography'],
+        subUnit: ['videography & YouTube'],
         skills: ['Football'],
         favMember: 'Joyful',
         moment: "Pre-exam service (sharing of groceries)",
@@ -98,6 +137,19 @@ const MemInfo = [
         biz: null,
         shoutOut: 'My level coordinators, Bolu and Ore and the realm touchers',
         pic: 'joy.jpg'
+    },
+    {
+        name: 'Olawuyi Joyful',
+        aka: 'Jayflex',
+        isLeader: 'Sub-unit Leader',
+        inspiration: 'The love and passion for God',
+        subUnit: ['projection', 'videography & YouTube'],
+        skills: ['Graphics Design'],
+        favMember: 'King David, NRG, Elijah, Ms. Joy',
+        moment: "Worship sessions",
+        biz: 'Freelancing',
+        shoutOut: 'To all publicity members',
+        pic: 'joyful.jpg'
     },
     {
         name: 'Olukanni Abiodun',
@@ -127,7 +179,7 @@ const MemInfo = [
         name: 'Elebute Olarenwaju',
         aka: 'Fresh',
         inspiration: 'Videograoghy & Photography',
-        subUnit: ['videography', 'graphics'],
+        subUnit: ['videography & YouTube', 'graphics'],
         skills: ['Web design', 'Public Speaking', 'Jama jama'],
         favMember: 'Mr. Kamiye',
         moment: "Brother's night. Eba day to be precise",
@@ -171,6 +223,18 @@ const MemInfo = [
         biz: 'Networking and Freelance',
         shoutOut: 'All publicity members',
         pic: 'timi.jpg'
+    },
+    {
+        name: 'Ikuku Wisdom',
+        aka: 'Wizzywise',
+        inspiration: "I wanted to join a unit to serve God and I had knowledge in video editing",
+        subUnit: ['Videography'],
+        skills: ['videography', 'video editing'],
+        favMember: 'Favour',
+        moment: "100 level hangout",
+        biz: 'Plumbing/Quantity Survey',
+        shoutOut: 'Elijah',
+        pic: 'wisdom.jpg'
     },
 ]
 export default MemInfo
