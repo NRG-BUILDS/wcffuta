@@ -38,7 +38,7 @@ const MemInfo = [
         shoutOut: 'KIng David',
         pic: 'kamiye.jpg'
     },
-    /*{
+    {
         name: 'Precious Ojo-numa',
         aka: 'Numa',
         isLeader: ' (Sub-unit Leader)',
@@ -49,8 +49,8 @@ const MemInfo = [
         moment: "Has to be the IT sendforth for my set and the energy that comes from handover services",
         biz: 'CEO Pancake Casual Corner, Tailored by UMA, Precious Noah TV on YouTube, upcoming Civil Engineer and Trillionaire',
         shoutOut: 'ALl publicity members',
-        pic: 
-    },*/
+        pic: 'precious.jpg'
+    },
     {
         name: 'Adenuga Joshua',
         aka: 'Big_Josh',
