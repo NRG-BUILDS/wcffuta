@@ -3,7 +3,7 @@ import bg from '../../assets/images/podcast_bg.jpg'
 
 const AudioTrack = ({Date, Title, link}) => {
     return (
-        <div className=" flex justify-between transiton duration-100 hover:shadow-lg relative">
+        <div className=" flex justify-center transiton duration-100 hover:shadow-lg relative">
             <div className="flex items-center py-2 px-5 border-2 border-slate-600 rounded-l-lg hover:border-brightRed">
                 <div className='text-left'>
                     <p className="font-extrabold text-sm">{Date}</p>
@@ -22,7 +22,6 @@ const AudioTrack = ({Date, Title, link}) => {
                     
     )
 }
-
 const PodcastSect = () => {
     const [viewMore, setViewMore] = useState(false);
     const podcasts = [
@@ -39,7 +38,8 @@ const PodcastSect = () => {
     ]
 
     return ( 
-        <section id="podcasts" className="leftCorner bg-black text-white pt-24 -mt-14 pb-44 relative z-0 text-center">
+        <section id="podcasts" className="leftCorner bg-black text-white pt-24 -mt-44 py-40 relative z-0 text-center">
+            <div className='my-24'>
             <img src={bg} alt=""  className="absolute top-0 left-0 w-full h-full object-cover brightness-50 -z-10"/>
             <div className="zoomIn px-4 md:px-8 pb-6">
                 <p className="revealTop text-lg font-light leading-3">Download</p>
