@@ -15,7 +15,7 @@ const ExcoCard = ({
           <img
             src={require(`../../assets/images/excos/${img}`)}
             alt=""
-            className="h-80 w-full skew-y-6 object-cover mx-auto scale-110"
+            className="md:h-80 w-full skew-y-6 object-cover mx-auto scale-110"
           />
         )}
         {!img && (
@@ -101,6 +101,26 @@ const ExcoSect = () => {
           fun={"I'm love❤"}
           img={"adegbenro.webp"}
         />
+        <ExcoCard
+          roleName={" Special Duties & Technical Unit Coordinator"}
+          excoName={"Olaibi David"}
+          dept={"Cyber Security"}
+          lvl={500}
+          verse={"Deut. 8:7-18"}
+          moment={"Whenever P. Kelechi teaches"}
+          fun={"I love making my friends laugh"}
+          img={"olaibi.webp"}
+        />
+        <ExcoCard
+          roleName={" Special Duties & Drama Unit Coordinator"}
+          excoName={"Adejumo Matthew"}
+          dept={"Physics"}
+          lvl={500}
+          verse={"Rev. 5:10"}
+          moment={"WCF Weeks and 400l Hangout 🎉"}
+          fun={"I am easy going"}
+          img={"adejumo.webp"}
+        />
         {/* <ExcoCard
           roleName={"general secretary"}
           excoName={"Olagoke Favour"}
@@ -168,7 +188,7 @@ const ExcoSect = () => {
           img={"arowolo_samuel.webp"}
         />
         <ExcoCard
-          roleName={"decorating unit coordinator"}
+          roleName={"sancutary & decorating unit assistant coordinator"}
           excoName={"Mogboyinola Faith"}
           dept={"ood Science and Technology"}
           lvl={200}
@@ -177,16 +197,7 @@ const ExcoSect = () => {
           fun={"I'm dramatic and emotional"}
           img={"mogboyinola.webp"}
         />
-        <ExcoCard
-          roleName={"Drama Unit Coordinator"}
-          excoName={"Adejumo Matthew"}
-          dept={"Physics"}
-          lvl={500}
-          verse={"Rev. 5:10"}
-          moment={"WCF Weeks and 400l Hangout 🎉"}
-          fun={"I am easy going"}
-          img={"adejumo.webp"}
-        />
+
         {/* <ExcoCard
           roleName={
             "Evangelism Unit (South Gate) Cooridnator & 500l Coordinator"
@@ -200,7 +211,7 @@ const ExcoSect = () => {
           img={"david_ikye.webp"}
         /> */}
         <ExcoCard
-          roleName={"Hospitality & Ushering Unit Coordinator"}
+          roleName={"Hospitality & Ushering Unit Assistant Coordinator"}
           excoName={"Elebute Olarenwaju Joseph"}
           dept={"Crop Soil and Pest Management"}
           lvl={500}
@@ -230,7 +241,7 @@ const ExcoSect = () => {
           img={"ajisebutu.webp"}
         />
         <ExcoCard
-          roleName={"Sanctuary Unit Coordinator"}
+          roleName={"Sanctuary & Decorating Unit Coordinator"}
           excoName={"Okotete Onome Mary"}
           dept={"Fisheries and Aquaculture Technology"}
           lvl={500}
@@ -239,16 +250,7 @@ const ExcoSect = () => {
           fun={"Gisting and making friends laugh"}
           img={"okotete.webp"}
         />
-        <ExcoCard
-          roleName={"Technical & Special Duties Unit Coordinator"}
-          excoName={"Olaibi David"}
-          dept={"Cyber Security"}
-          lvl={500}
-          verse={"Deut. 8:7-18"}
-          moment={"Whenever P. Kelechi teaches"}
-          fun={"I love making my friends laugh"}
-          img={"olaibi.webp"}
-        />
+
         <div className="zoomIn px-4 py-8 md:px-8 md:col-span-3 font-bold -skew-y-6">
           <p className="revealTop uppercase text-2xl leading-3">level</p>
           <p className="revealTop text-brightRed uppercase text-4xl">
