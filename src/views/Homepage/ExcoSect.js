@@ -146,9 +146,9 @@ const ExcoSect = () => {
           excoName={"Omoyeni Oreoluwa"}
           dept={"Biology"}
           lvl={300}
-          verse={"1Thes. 1:18"}
-          moment={"Drama night 🎬"}
-          fun={"I love looking for trouble but I am very gentle"}
+          verse={"Phi. 4:13"}
+          moment={"Drama night, 200l hangout, family song 🎬"}
+          fun={"I like smiling and having fun"}
           img={"omoyemi.webp"}
         />
         <div className="zoomIn px-4 py-8 md:px-8 md:col-span-3 font-bold -skew-y-6">
