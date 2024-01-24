@@ -188,6 +188,16 @@ const ExcoSect = () => {
           img={"arowolo_samuel.webp"}
         />
         <ExcoCard
+          roleName={"Sanctuary & Decorating Unit Coordinator"}
+          excoName={"Okotete Onome Mary"}
+          dept={"Fisheries and Aquaculture Technology"}
+          lvl={500}
+          verse={"Psa. 91:1"}
+          moment={"400l get together"}
+          fun={"Gisting and making friends laugh"}
+          img={"okotete.webp"}
+        />
+        <ExcoCard
           roleName={"sancutary & decorating unit assistant coordinator"}
           excoName={"Mogboyinola Faith"}
           dept={"ood Science and Technology"}
@@ -241,17 +251,6 @@ const ExcoSect = () => {
           img={"olaniyi_olamide.webp"}
         /> */}
 
-        <ExcoCard
-          roleName={"Sanctuary & Decorating Unit Coordinator"}
-          excoName={"Okotete Onome Mary"}
-          dept={"Fisheries and Aquaculture Technology"}
-          lvl={500}
-          verse={"Psa. 91:1"}
-          moment={"400l get together"}
-          fun={"Gisting and making friends laugh"}
-          img={"okotete.webp"}
-        />
-
         <div className="zoomIn px-4 py-8 md:px-8 md:col-span-3 font-bold -skew-y-6">
           <p className="revealTop uppercase text-2xl leading-3">level</p>
           <p className="revealTop text-brightRed uppercase text-4xl">
@@ -271,7 +270,7 @@ const ExcoSect = () => {
         <ExcoCard
           roleName={"400l assistant coordinator"}
           excoName={"Olayemi Temidayo"}
-          dept={"Fisheries and Aquaculture Engineering"}
+          dept={"Fisheries and Aquaculture Technology"}
           lvl={400}
           verse={"Psa. 46:1-2"}
           moment={"Every WCF Relationship Service"}
