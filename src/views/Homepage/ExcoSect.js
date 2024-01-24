@@ -143,7 +143,7 @@ const ExcoSect = () => {
         /> */}
         <ExcoCard
           roleName={"financial secretary"}
-          excoName={"Omoyemi Oreoluwa"}
+          excoName={"Omoyeni Oreoluwa"}
           dept={"Biology"}
           lvl={300}
           verse={"1Thes. 1:18"}
@@ -211,7 +211,17 @@ const ExcoSect = () => {
           img={"david_ikye.webp"}
         /> */}
         <ExcoCard
-          roleName={"Hospitality & Ushering Unit Assistant Coordinator"}
+          roleName={"Ushering and Hospitality Unit Coordinator"}
+          excoName={"Ajisebutu Kehinde"}
+          dept={"Biochemistry"}
+          lvl={500}
+          verse={"Rom. 8:18"}
+          moment={"400l get together and worship service"}
+          fun={"My facial expressions"}
+          img={"ajisebutu.webp"}
+        />
+        <ExcoCard
+          roleName={"Ushering & Hospitality Unit Assistant Coordinator"}
           excoName={"Elebute Olarenwaju Joseph"}
           dept={"Crop Soil and Pest Management"}
           lvl={500}
@@ -230,16 +240,7 @@ const ExcoSect = () => {
           fun={"I don't hold grudges 🕊"}
           img={"olaniyi_olamide.webp"}
         /> */}
-        <ExcoCard
-          roleName={"Ushering Unit Coordinator"}
-          excoName={"Ajisebutu Kehinde"}
-          dept={"Biochemistry"}
-          lvl={500}
-          verse={"Phil. 4:13"}
-          moment={"12-hour prayer session under President Kele tenure."}
-          fun={"I love chatting"}
-          img={"ajisebutu.webp"}
-        />
+
         <ExcoCard
           roleName={"Sanctuary & Decorating Unit Coordinator"}
           excoName={"Okotete Onome Mary"}
@@ -315,7 +316,7 @@ const ExcoSect = () => {
           roleName={"100l Coordinator"}
           excoName={"Emmanuel Boluwatife"}
           dept={"Industrial Production Engineering"}
-          lvl={200}
+          lvl={300}
           verse={"Mat. 15:16"}
           moment={"Praise and worship sessions 🥁"}
           fun={"I imagine a lot"}
