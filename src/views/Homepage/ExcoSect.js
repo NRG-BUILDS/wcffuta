@@ -278,16 +278,16 @@ const ExcoSect = () => {
           fun={"I love love"}
           img={"olayemi.webp"}
         />
-        {/* <ExcoCard
+        <ExcoCard
           roleName={"300l coordinator"}
-          excoName={"Adenuga Joshua"}
-          dept={"Meteorology & Climate Science"}
+          excoName={"Omolaju Emmanuel"}
+          dept={"Metallurgical & Materials Engineering"}
           lvl={300}
-          verse={"Joshua 1:8"}
-          moment={"The day I joined publicity unit📸"}
-          fun={"I can do a lot a things!"}
-          img={"adenuga_joshua.webp"}
-        /> */}
+          verse={"Mat 10:8"}
+          moment={"All WCF weeks and level prayer meetings"}
+          fun={"I like to think I'm funny"}
+          img={"emmanuel.webp"}
+        />
         <ExcoCard
           roleName={"300l assistant coordinator"}
           excoName={"Odemakinde Testimony"}
