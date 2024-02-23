@@ -32,7 +32,7 @@ const UpcoProSect = () => {
 
     //Edit this to edit event details
     const program = {
-        name: "Dealing with Schizophrenia: Living as Light in a World of Darkness",
+        name: "Family meeting: Love of the Father",
         venue: 'Fellowship Auditorium, Apatapiti Layout.',
         time: '6pm'
     }
